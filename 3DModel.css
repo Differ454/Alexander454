@@ -11,19 +11,6 @@
 /* Earth css --> */
 
 
-
-/* canvasContainerAnimation css --> */
-
-#canvasContainerAnimation {
-  width: 33vw;
-  height: 100vh;
-  position: absolute;
-  left: 67rem;
-  top: -15rem;
-}
-
-/* canvasContainerAnimation css --> */
-
 /* canvasContainerStateSpace css --> */
 
 #canvasContainerSatelite {
@@ -50,53 +37,6 @@
 }
 
 
-/* Moon css --> */
-
-#canvasContainerMoon {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  top: -4rem;
-  left: 3rem;
-
-}
-
-/* Phoenix css --> Blue Astrounaut*/
-
-#canvasContainerPhoenix {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  top: 20rem;
-  z-index: 2;
-}
-
-/* Avatar css --> Red Astrounaut */
-
-#canvasContainerAvatar {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  top: 0rem;
-}
-
-/* Robot css --> */
-
-#canvasContainerAnimationRobot {
-  width: 80vw;
-  height: 80vh;
-  position: absolute;
-  top: 167rem;
-  /* z-index: 3;   */
-  left: 9.1rem;
-
-}
-
-
-
-
-
-
 /*---------Media Queries (large and medium devices)------------------*/
 @media screen and (min-width: 1920px) {
 
@@ -108,17 +48,6 @@
     top: 7rem;
     z-index: 2;
   }
-
-  /* canvasContainerAnimation css --> */
-
-  #canvasContainerAnimation {
-    width: 33vw;
-    height: 100vh;
-    position: absolute;
-    left: 87rem;
-    top: -15rem;
-  }
-
 
   /* canvasContainerStateSpace css --> */
 
@@ -142,48 +71,6 @@
 
   }
 
-  /* Moon css --> */
-
-  #canvasContainerMoon {
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: -8rem;
-    left: 3rem;
-  }
-
-  /* Phoenix css --> Blue Astrounaut*/
-
-  #canvasContainerPhoenix {
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 20rem;
-    z-index: 2;
-  }
-
-  /* Avatar css --> Red Astrounaut */
-
-  #canvasContainerAvatar {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    top: -6rem;
-  }
-
-  /* Robot css --> */
-
-  #canvasContainerAnimationRobot {
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 190rem;
-    /* z-index: 3;   */
-    left: 0rem;
-
-  }
-
-
 
 }
 
@@ -202,17 +89,7 @@
     z-index: 2;
   }
 
-  /* canvasContainerAnimation css --> */
-
-  #canvasContainerAnimation {
-    width: 33vw;
-    height: 50vh;
-    position: absolute;
-    left: 43rem;
-    top: -14rem;
-  }
-
-
+ 
   /* canvasContainerStateSpace css --> */
 
   #canvasContainerSatelite {
@@ -235,49 +112,6 @@
 
   }
 
-  /* Moon css --> */
-
-  #canvasContainerMoon {
-    width: 50vw;
-    height: 50vh;
-    position: absolute;
-    top: 9rem;
-    left: 21rem;
-  }
-
-  /* Phoenix css --> Blue Astrounaut*/
-
-  #canvasContainerPhoenix {
-    width: 100vw;
-    height: 50vh;
-    position: absolute;
-    top: 31rem;
-    z-index: 2;
-    left: 0rem;
-  }
-
-  /* Avatar css --> Red Astrounaut */
-
-  #canvasContainerAvatar {
-    width: 100vw;
-    height: 50vh;
-    position: relative;
-    top: 20rem;
-    left: 0rem;
-  }
-
-  /* Robot css --> */
-
-  #canvasContainerAnimationRobot {
-    width: 100vw;
-    height: 75vh;
-    position: absolute;
-
-    top: 172rem;
-    left: 1rem;
-
-  }
-
 
 
 }
@@ -295,16 +129,6 @@
     left: 8rem;
     z-index: 2;
 
-  }
-
-  /* Moon css --> */
-
-  #canvasContainerMoon {
-    width: 40vw;
-    height: 35vh;
-    position: absolute;
-    top: 3rem;
-    left: 10rem;
   }
 
   /* canvasContainerLego Astrounauts css --> */
@@ -328,49 +152,5 @@
     left: -6rem;
     top: -5rem;
   }
-
-   /* canvasContainerAnimation css --> */
-
-   #canvasContainerAnimation {
-    width: 50vw;
-    height: 30vh;
-    position: absolute;
-    left: 13rem;
-    top: -4rem;
-  }
-
-
-
-  /* Phoenix css --> Blue Astrounaut*/
-
-  #canvasContainerPhoenix {
-    width: 80vw;
-    height: 25vh;
-    position: absolute;
-    top: 13rem;
-    z-index: 2;
-    left: 0rem;
-  }
-
-   /* Avatar css --> Red Astrounaut */
-
-   #canvasContainerAvatar {
-    width: 80vw;
-    height: 25vh;
-    position: relative;
-    top: 5rem;
-    left: 2rem;
-   
-  }
-
-   /* Robot css --> */
-
-   #canvasContainerAnimationRobot {
-    width: 75vw;
-    height: 35vh;
-    position: absolute;
-    top: 168rem;
-    left: 3rem;
-
-  }
+  
 }

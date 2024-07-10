@@ -5,7 +5,7 @@ import NJN from "/assets/ninja.jpg";
 import TIC from "/assets/tic tac toe.png";
 import GTH from "/assets/GithubShooter.png";
 import EAR from "/assets/DLM.png";
-import STW from "/assets/space6.png";
+import STW from "/assets/earth.png";
 
 const data = [
   {
