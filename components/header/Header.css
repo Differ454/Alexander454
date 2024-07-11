@@ -4,7 +4,7 @@ header {
   position: relative;
   margin: 0;
   padding: 0;
-  top: -28rem;
+  top: -27rem;
   z-index: 2;
 
 }
@@ -56,13 +56,13 @@ header {
   width: 22vw;
   height: 55vh;
   position: absolute;
-  left: calc(51% - 14rem);
+  left: calc(52% - 14rem);
   margin-top: 25%;
 
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 0rem 0.5rem 4.5rem;
-  top: -15%;
+  top: 0rem;
 }
 
 .Me img {
@@ -97,18 +97,27 @@ header {
     position: relative;
     margin: 0;
     padding: 0;
-    top: -83rem;
+    top: -30rem;
     z-index: 2;
 
   }
+
+  .Me {
+    top: -6rem;
+    height: 50vh;
+    left: calc(50% - 14rem);
+    
+  }
+
   .scroll__down {
     position: absolute;
     right: -2.3rem;
-    bottom: 25rem;
+    bottom: 65rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
   }
+
   .header__socials {
     display: flex;
     flex-direction: column;
@@ -116,31 +125,39 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 23rem;
+    bottom: 65rem;
   }
 
   .header__container {
     text-align: center;
-    height: 100vh;
+    height: 130vh;
     position: relative;
     margin: 0;
     padding: 0;
-    top: 0rem;
+    top: 2rem;
+   
 
   }
+
+  
 }
 
+/* @media screen and (max-width: 1024px)  */
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
+
   header {
-    height: 100vh;
+    height: 75vh;
     width: 100vw;
     overflow: hidden;
     position: relative;
     margin: 0;
     padding: 0;
-    top: -65rem;
+    top: -22rem;
     z-index: 2;
+    left: 0rem;
+
 
   }
 
@@ -151,34 +168,42 @@ header {
     position: relative;
     margin: 0;
     padding: 0;
-    top:11rem;
+    top: 11rem;
 
   }
 
-  .Me {
+ .header__container h1 {
+    margin-left: 0rem;
+    
+
+  }  
+
+  /* h1 {
+    margin-left: 0rem;
+} */
+
+   .Me {
     width: 31vw;
     height: 33vh;
     position: absolute;
-    left: calc(51% - 10rem);
-    top: 29%;
+    left: calc(50% - 8rem);  
+    top: 44%;
+    /* margin-left: 50rem; */
 
-  }
+  } 
 
+ 
   .Me img {
 
     width: 27vw;
     position: relative;
     left: 0rem;
     top: 0rem;
+
+  }
+
   
-  }
-
-   .header__container h1 {
-    margin-left: 0%;
-    
-
-  }
-/*
+  /*
   .header__container h3 {
     margin-left: 16%;
     font-style: Arial;
@@ -229,19 +254,19 @@ header {
     position: relative;
     margin-left: 0rem;
     padding: 0;
-    top:14rem;
-    left:-1rem;
-    
+    top: 14rem;
+    left: -1rem;
+
 
   }
-  
+
 
   .header__socials,
   .scroll__down {
     display: none;
   }
 
-  
+
 
   .header__container h1 {
     margin-left: 6%;

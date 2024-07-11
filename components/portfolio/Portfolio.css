@@ -3,7 +3,7 @@
    position: relative;
    margin: 0;
    padding: 0;
-   top: -40rem;
+   top: -25rem;
 }
 
 #portfolio h5 {
@@ -60,10 +60,10 @@
 
 /*---------Media Queries (medium devices)------------------*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
 
    #portfolio {
-      top: -90rem;
+      top: -41rem;
    }
 
    section>h2,

@@ -1,0 +1,60 @@
+/* Earth css --> */
+
+#canvasContainer {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 3rem;
+    z-index: 2;
+}
+
+
+/*---------Media Queries (large and medium devices)------------------*/
+@media screen and (min-width: 1920px) {
+
+    /* Earth css --> */
+    #canvasContainer {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 7rem;
+        z-index: 2;
+    }
+
+
+}
+
+/*---------Media Queries (medium devices - Tablets)------------------*/
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    /* Earth css --> */
+
+    #canvasContainer {
+        width: 65vw;
+        height: 65vh;
+        position: absolute;
+        margin-left: 18%;
+        margin-top: 16%;
+        z-index: 2;
+    }
+
+
+}
+
+/*---------Small Queries (Small devices)------------------*/
+
+@media screen and (max-width: 600px) {
+    /* Eath css --> */
+
+    #canvasContainer {
+        width: 40vw;
+        height: 35vh;
+        position: absolute;
+        top: 7rem;
+        left: 8rem;
+        z-index: 2;
+
+    }
+
+}

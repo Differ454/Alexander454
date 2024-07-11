@@ -2,7 +2,7 @@
   position: relative;
   margin: 0;
   padding: 0;
-  top: -47rem;
+  top: -20rem;
   
 
 }
@@ -86,11 +86,11 @@
 
 .cube {
   transform-style: preserve-3d;
-  width: 10vw;
+  width: 13vw;
   height: 10vh;
   position: absolute;
-  left:45rem;
-  top: 15rem;
+  left:34rem;
+  top: 7rem;
 }
 
 .cube img {
@@ -145,43 +145,89 @@
 @media screen and  (min-width: 1920px) {
   #about {
     position: relative;
-    top: -85rem;
+    top: -25rem;
   }
+
+  /* css cube */
+
+.wrap {
+  position: relative;
+  
+  margin-left: 20rem;
+  
+}
+
+.cube {
+  
+  width: 9vw;
+ 
+}
+
+  
 }
 /*---------Media Queries (medium devices Tablets)------------------*/
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) */
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
 
   #about {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
     position: relative;
-    top: -69rem;
+    top: -20rem;
+    left: 0rem;
     
   }
+
+  #about h5 {
+
+    margin-left: 0rem;
+    font-size: 1.9rem;
+  }
+
+  #about h2{
+
+    margin-left: 0rem;
+    font-size: 3.4rem;
+  }
+
+  .about__card h5 {
+    font-size: 1.7rem;
+  }
+
   .about__container {
+    width: 100vw;
     grid-template-columns: 1fr;
     gap: 0;
   }
 
   .about__content {
-    width: 70vw;
+    width: 100vw;
     position: relative;
     top: -45rem;
-    left: 29rem;
+    margin-left: 0rem;
   }
 
-  .about__cards {
-    margin-right: -16%;
+   .about__cards {
+    left: 0rem;
+  } 
+
+ 
+  .wrap {
+    margin-left: 0rem;
+    
   }
+  
 
   .cube {
     transform-style: preserve-3d;
     width: 22vw;
     height: 10vh;
     position: absolute;
-    left: 19rem;
+    left: 40%;
     top: 12rem;
   }
 

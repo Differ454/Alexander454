@@ -1,0 +1,69 @@
+/* canvasContainerLego Astrounauts css --> */
+
+#canvasContainerLego {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: -9rem;
+    left: 1rem;
+    z-index: 1;
+
+}
+
+
+/*---------Media Queries (large and medium devices)------------------*/
+@media screen and (min-width: 1920px) {
+
+    /* canvasContainerLego Astrounauts css --> */
+
+    #canvasContainerLego {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        top: -8rem;
+        left: 1rem;
+        z-index: 1;
+
+    }
+
+
+}
+
+/*---------Media Queries (medium devices - Tablets)------------------*/
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+
+    /* canvasContainerLego Astrounauts css --> */
+
+    #canvasContainerLego {
+        width: 100vw;
+        height: 50vh;
+        position: relative;
+        top: 5rem;
+        left: 0rem;
+        z-index: 1;
+
+    }
+
+
+
+}
+
+/*---------Small Queries (Small devices)------------------*/
+
+@media screen and (max-width: 600px) {
+
+    /* canvasContainerLego Astrounauts css --> */
+
+    #canvasContainerLego {
+        width: 100vw;
+        height: 50vh;
+        position: relative;
+        top: -3rem;
+        left: 0rem;
+        z-index: 1;
+
+    }
+
+}

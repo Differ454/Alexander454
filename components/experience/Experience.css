@@ -3,7 +3,7 @@
   position: relative;
   margin: 0;
   padding: 0;
-  top: -50rem;
+  top: -30rem;
 }
 
 .experience__container {
@@ -76,16 +76,16 @@
 @media screen and (min-width: 1920px) {
   #experience {
     position: relative;
-    top: -85rem;
+    top: -35rem;
   }
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
 
   #experience {
 
-    top: -92rem;
+    top: -49rem;
   }
 
   .experience__container {
