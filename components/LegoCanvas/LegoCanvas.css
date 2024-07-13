@@ -50,20 +50,40 @@
 
 }
 
-/*---------Small Queries (Small devices)------------------*/
+/*--------- Responsive design  (Small devices)-- iPhone devices ----------------*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
 
+     /* canvasContainerLego Astrounauts css --> */
+
+     #canvasContainerLego {
+        width: 100vw;
+        height: 50vh;
+        position: relative;
+        top: 0rem;
+        left: 0rem;
+        z-index: 1;
+
+    }
+   }
+   
+   
+   @media screen and (min-width: 481px) and (max-width: 767px) {
+       
     /* canvasContainerLego Astrounauts css --> */
 
     #canvasContainerLego {
         width: 100vw;
         height: 50vh;
         position: relative;
-        top: -3rem;
+        top: 0rem;
         left: 0rem;
         z-index: 1;
 
     }
+   
+   }
+   
 
-}
+
+   

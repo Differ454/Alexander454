@@ -25,7 +25,7 @@ const LegoCanvas = () => {
         const orbitControls = new OrbitControls(camera, renderer.domElement);
         orbitControls.enableDamping = true;
         orbitControls.autoRotate = true;
-        orbitControls.autoRotateSpeed = 0.9;
+        orbitControls.autoRotateSpeed = 1.9;
         orbitControls.enableZoom = false;
 
         window.addEventListener("resize", () => {
