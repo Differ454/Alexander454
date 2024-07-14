@@ -119,39 +119,83 @@
   }
 }
 
-/*---------Small Queries (Small devices)------------------*/
+/*--------- Responsive design  (Small devices)-- iPhone devices ----------------*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   #experience {
-    overflow-x: hidden;
-    top: -57rem;
-    margin-left: 0%;
-    width: 100%;
+
+    top: -47rem;
   }
 
   .experience__container {
-    gap: 1rem;
-    margin: 10px;
-    margin-left: 2rem;
+    width: 100%;
+    grid-template-columns: 1fr;
   }
 
-  #experience h5 {
-    font-size: 1.4rem;
-    text-align: center;
-    left: 0rem;
+  #experience h1 {
+    /* text-align: center; */
+    margin-top: 250px;
+    margin-left: 0%;
+
+
   }
 
   #experience h2 {
-    font-size: 1.4rem;
     text-align: center;
-    left: 0rem;
+    margin-top: 3px;
+    margin-left: 0%;
   }
-
 
 
   .experience__container>div {
     width: 100%;
-    padding: 2rem 1rem;
-    margin-left: 0rem;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-left: 0%;
+  }
+
+  .experience__content {
+    padding: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  #experience {
+
+    top: -47rem;
+  }
+
+  .experience__container {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  #experience h1 {
+    /* text-align: center; */
+    margin-top: 250px;
+    margin-left: 0%;
+
+
+  }
+
+  #experience h2 {
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 0%;
+  }
+
+
+  .experience__container>div {
+    width: 90%;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-left: 1rem;
+  }
+
+  .experience__content {
+    padding: 1rem;
+    margin-left: 1rem;
   }
 }

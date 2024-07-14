@@ -204,7 +204,7 @@ header {
 
 @media screen and (max-width: 480px) {
   header {
-    height: 100vh;
+    height: 112vh;
     width: 100vw;
     overflow: hidden;
     position: relative;
@@ -230,6 +230,7 @@ header {
 
   .header__container h1 {
     margin-left: 0rem;
+    color: #4db5ff;
 
 
   }
@@ -237,10 +238,10 @@ header {
 
   .Me {
     width: 31vw;
-    height: 33vh;
+    height: 22vh;
     position: absolute;
     left: calc(50% - 4rem);
-    top: 15rem;
+    top: 20rem;
     
 
   }
@@ -309,5 +310,22 @@ header {
     top: 0rem;
 
   }
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px){ 
+  header {
+    height: 85vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: -17rem;
+    z-index: 2;
+    left: 0rem;
+
+
+  }
+    
 }
 

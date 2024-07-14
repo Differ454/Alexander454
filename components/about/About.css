@@ -242,21 +242,25 @@
     width: 100vw;
     overflow: hidden;
     position: relative;
-    top: -20rem;
+    margin-top: 20px;
     left: 0rem;
     
   }
 
   #about h5 {
-
+    position: relative;
     margin-left: 0rem;
-    font-size: 1.9rem;
+    font-size: 0.9rem;
+    top: 0rem;
+    left: 0rem;
   }
 
   #about h2{
-
+    position: relative;
     margin-left: 0rem;
-    font-size: 3.4rem;
+    font-size: 1.9rem;
+    top: 0rem;
+    left: 0rem;
   }
 
   .about__card h5 {
@@ -272,11 +276,15 @@
   .about__content {
     width: 100vw;
     position: relative;
-    top: -45rem;
+    top: -31rem;
     margin-left: 0rem;
   }
 
    .about__cards {
+    /* width: 80%; */
+    padding-right: 0px;
+    padding-left: 0px;
+    gap: 0rem;
     left: 0rem;
   } 
 
@@ -289,11 +297,11 @@
 
   .cube {
     transform-style: preserve-3d;
-    width: 22vw;
+    width: 48vw;
     height: 10vh;
     position: absolute;
-    left: 40%;
-    top: 12rem;
+    left: 27%;
+    top: 8rem;
   }
 }
 
@@ -310,15 +318,19 @@
   }
 
   #about h5 {
-
+    position: relative;
     margin-left: 0rem;
-    font-size: 1.9rem;
+    font-size: 0.9rem;
+    top: 0rem;
+    left: 0rem;
   }
 
   #about h2{
-
+    position: relative;
     margin-left: 0rem;
-    font-size: 3.4rem;
+    font-size: 1.9rem;
+    top: 0rem;
+    left: 0rem;
   }
 
   .about__card h5 {
@@ -332,13 +344,14 @@
   }
 
   .about__content {
-    width: 100vw;
+    width: 100%;
     position: relative;
-    top: -45rem;
+    top: -31rem;
     margin-left: 0rem;
   }
 
    .about__cards {
+    
     left: 0rem;
   } 
 
@@ -351,10 +364,23 @@
 
   .cube {
     transform-style: preserve-3d;
-    width: 22vw;
+    width: 48vw;
     height: 10vh;
     position: absolute;
-    left: 40%;
-    top: 12rem;
+    left: 27%;
+    top: 8rem;
   }
 }
+
+@media screen and (min-width: 375px) and (max-width: 667px){ 
+  #about {
+    height: 116vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    left: 0rem;
+  }
+    
+}
+

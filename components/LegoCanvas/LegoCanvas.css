@@ -83,6 +83,21 @@
     }
    
    }
+
+   @media screen and (min-width: 375px) and (max-width: 667px) {
+    /* canvasContainerLego Astrounauts css --> */
+
+    #canvasContainerLego {
+        width: 100vw;
+        height: 50vh;
+        position: relative;
+        top: 3rem;
+        left: 0rem;
+        z-index: 1;
+
+    }
+
+}
    
 
 

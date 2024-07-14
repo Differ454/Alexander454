@@ -57,11 +57,11 @@
         margin-top: 0rem;
         z-index: 2;
     }
-  }
-  
-  
-  @media screen and (min-width: 481px) and (max-width: 767px) {
-      
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
     /* Earth css --> */
 
     #canvasContainer {
@@ -72,6 +72,19 @@
         margin-top: 0rem;
         z-index: 2;
     }
-  
-  }
-  
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    /* Earth css --> */
+
+    #canvasContainer {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        z-index: 2;
+    }
+
+}

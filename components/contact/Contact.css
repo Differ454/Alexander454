@@ -86,22 +86,22 @@ textarea {
     position: relative;
     top: -37rem;
     left: -3rem;
-}
+  }
 
-#contact h5{
-  margin-left: 10%;
-  font-size: 1.5rem;
-}
+  #contact h5 {
+    margin-left: 10%;
+    font-size: 1.5rem;
+  }
 
-#contact h2{
-  margin-left: 10%;
-  font-size: 1.9rem;
-}
+  #contact h2 {
+    margin-left: 10%;
+    font-size: 1.9rem;
+  }
 
-h5 {
-  margin-left: 0%;
-  font-size: 1.5rem;
-}
+  h5 {
+    margin-left: 0%;
+    font-size: 1.5rem;
+  }
 
   .container.contact__container {
     grid-template-columns: 1fr;
@@ -109,58 +109,114 @@ h5 {
   }
 }
 
-/* ********************************** MEDIA QUERIES (SMALL DEVICES) ************************ */
+/*--------- Responsive design  (Small devices)-- iPhone devices ----------------*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
 
   #contact {
+    
+    width: 100vw;
     overflow-x: hidden;
-    width: 100%;
-    height: 114vh;
     position: relative;
-    top: -51rem;
-    margin-right: 0%;
-    margin-left: 0%;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-  margin-left: 0%;
-  width: 76%;
-}
-
-#contact h5 {
-  font-size: 1.4rem;
-  text-align: center;
-  margin-left: 4rem;
-}
-
-#contact h2 {
-  font-size: 1.4rem;
-  text-align: center;
-  margin-left: 4rem;
-}
-
-.contact__options {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-  margin-left: 0rem;
-}
-
-.contact__option h5{
-
-  font-size: 1.4rem;
-  text-align: center;
-  left: 0rem;
-
-}
-  .container.contact__container {
-     width: var(--container-width-sm); 
-
-   
+    top: -67rem;
+    margin-left: 0rem;
+    margin-bottom: 20rem;
   }
+
+  #contact h5 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-left: 0rem;
+  }
+
+  #contact h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 0rem;
+  }
+
+  h5 {
+    margin-left: 0%;
+    font-size: 1.5rem;
+  }
+
+  .container.contact__container {
+    margin-left: -1rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+
+
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+  #contact {
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    top: -84rem;
+    margin-left: 0rem;
+  }
+
+  #contact h5 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-left: 0rem;
+  }
+
+  #contact h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 0rem;
+  }
+
+  h5 {
+    margin-left: 0%;
+    font-size: 1.5rem;
+  }
+
+  .container.contact__container {
+    margin-left: -1rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px){ 
+  #contact {
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    top: -41rem;
+    margin-left: 0rem;
+  }
+
+  #contact h5 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-left: 0rem;
+  }
+
+  #contact h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 0rem;
+  }
+
+  h5 {
+    margin-left: 0%;
+    font-size: 1.5rem;
+  }
+
+  .container.contact__container {
+    margin-left: -1rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+    
 }

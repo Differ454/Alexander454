@@ -85,9 +85,86 @@ footer a {
     }
   }
 
+  /*--------- Responsive design  (Small devices)-- iPhone devices ----------------*/
+
+@media screen and (max-width: 480px) {
+
+    #footer {
+        width: 100%;
+        position: relative;
+        overflow-x: hidden;
+        margin-left: 0%;
+        top: -47rem;
+        
+      }
+
+   
+
+    .permalinks {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer__socials {
+        margin-bottom: 2.6rem;
+    }
+  
+  
+  
+  }
+  
+  
+  @media screen and (min-width: 481px) and (max-width: 767px) {
+  
+    #footer {
+        width: 100%;
+        position: relative;
+        overflow-x: hidden;
+        margin-left: 0%;
+        top: -47rem;
+        
+      }
+
+   
+
+    .permalinks {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer__socials {
+        margin-bottom: 2.6rem;
+    }
+  
+  
+  }
+  
+  @media screen and (min-width: 375px) and (max-width: 667px){ 
+    #footer {
+        width: 100%;
+        position: relative;
+        overflow-x: hidden;
+        margin-left: 0%;
+        top: -9rem;
+        
+      }
+
+   
+
+    .permalinks {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer__socials {
+        margin-bottom: 2.6rem;
+    }
+      
+  }
+
 /* ********************************** MEDIA QUERIES (SMALL DEVICES) ************************ */
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
 
     #footer {
         width: 100%;
@@ -98,12 +175,7 @@ footer a {
         
       }
 
-    /* #footer {
-        margin-left: 0rem;
-       
-        
-        top: 82rem;
-    } */
+   
 
     .permalinks {
         flex-direction: column;
@@ -113,4 +185,4 @@ footer a {
     .footer__socials {
         margin-bottom: 2.6rem;
     }
-}
+} */
