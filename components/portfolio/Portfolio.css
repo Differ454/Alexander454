@@ -89,7 +89,7 @@
       width: 100%;
       overflow-x: hidden;
       position: relative;
-      top: -41rem;
+      top: -33rem;
       margin-bottom: 20px;
       margin-left: 0rem;
    }
@@ -127,7 +127,7 @@
       width: 100%;
       overflow-x: hidden;
       position: relative;
-      top: -41rem;
+      top: -33rem;
       margin-bottom: 20px;
       margin-left: 0rem;
    }
@@ -152,5 +152,19 @@
       margin-left: 0rem;
    }
   
+ }
+
+ @media screen and (max-width: 375px) { 
+   #portfolio {
+
+      height: 454vh;
+      width: 100%;
+      overflow-x: hidden;
+      position: relative;
+      top: -41rem;
+      margin-bottom: 20px;
+      margin-left: 0rem;
+   }
+     
  }
 

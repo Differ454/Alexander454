@@ -242,7 +242,7 @@
     width: 100vw;
     overflow: hidden;
     position: relative;
-    margin-top: 20px;
+    top: -30rem;
     left: 0rem;
     
   }
@@ -312,7 +312,7 @@
     width: 100vw;
     overflow: hidden;
     position: relative;
-    top: -20rem;
+    top: -30rem;
     left: 0rem;
     
   }
@@ -372,14 +372,69 @@
   }
 }
 
-@media screen and (min-width: 375px) and (max-width: 667px){ 
+@media screen and (max-width: 375px) { 
   #about {
-    height: 116vh;
+    height: 118vh;
     width: 100vw;
     overflow: hidden;
     position: relative;
-    margin-top: 20px;
+    top: -15rem;
     left: 0rem;
+    
+  }
+
+  #about h5 {
+    position: relative;
+    margin-left: 0rem;
+    font-size: 0.9rem;
+    top: 0rem;
+    left: 0rem;
+  }
+
+  #about h2{
+    position: relative;
+    margin-left: 0rem;
+    font-size: 1.9rem;
+    top: 0rem;
+    left: 0rem;
+  }
+
+  .about__card h5 {
+    font-size: 1.7rem;
+  }
+
+  .about__container {
+    width: 100vw;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about__content {
+    width: 100%;
+    position: relative;
+    top: -31rem;
+    margin-left: 0rem;
+  }
+
+   .about__cards {
+    
+    left: 0rem;
+  } 
+
+ 
+  .wrap {
+    margin-left: 0rem;
+    
+  }
+  
+
+  .cube {
+    transform-style: preserve-3d;
+    width: 48vw;
+    height: 10vh;
+    position: absolute;
+    left: 27%;
+    top: 2rem;
   }
     
 }

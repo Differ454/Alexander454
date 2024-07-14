@@ -60,7 +60,7 @@
         width: 100vw;
         height: 50vh;
         position: relative;
-        top: 0rem;
+        top: 1rem;
         left: 0rem;
         z-index: 1;
 
@@ -76,7 +76,7 @@
         width: 100vw;
         height: 50vh;
         position: relative;
-        top: 0rem;
+        top: 1rem;
         left: 0rem;
         z-index: 1;
 
@@ -84,14 +84,14 @@
    
    }
 
-   @media screen and (min-width: 375px) and (max-width: 667px) {
+   @media screen and (max-width: 375px)  {
     /* canvasContainerLego Astrounauts css --> */
 
     #canvasContainerLego {
         width: 100vw;
         height: 50vh;
         position: relative;
-        top: 3rem;
+        top: 2rem;
         left: 0rem;
         z-index: 1;
 
