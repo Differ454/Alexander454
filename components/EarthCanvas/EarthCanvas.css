@@ -80,10 +80,10 @@
 
     #canvasContainer {
         width: 100vw;
-        height: 90vh;
+        height: 100vh;
         position: absolute;
         margin-left: 0rem;
-        margin-top: 0rem;
+        margin-top: -2rem;
         z-index: 2;
     }
 

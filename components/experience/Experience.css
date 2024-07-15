@@ -199,3 +199,47 @@
     margin-left: 1rem;
   }
 }
+
+@media screen and (max-width: 375px) { 
+  #experience {
+
+    top: -35rem;
+  }
+
+  .experience__container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    
+    padding: 0rem;
+    margin: 0 auto;
+    margin-left: 0rem;
+  } 
+
+  #experience h1 {
+    /* text-align: center; */
+    margin-top: 250px;
+    margin-left: 0%;
+
+
+  }
+
+  #experience h2 {
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 0%;
+  }
+
+
+  /* .experience__container>div {
+    width: 90%;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-left: 1rem;
+  } */
+
+  .experience__content {
+    padding: 1rem;
+    margin-left: 1rem;
+  }
+    
+}
