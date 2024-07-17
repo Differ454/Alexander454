@@ -23,10 +23,12 @@ const LegoCanvas = () => {
         });
 
         const orbitControls = new OrbitControls(camera, renderer.domElement);
-        orbitControls.enableDamping = true;
+        orbitControls.enableDamping = false;
         orbitControls.autoRotate = true;
         orbitControls.autoRotateSpeed = 1.9;
         orbitControls.enableZoom = false;
+        orbitControls.enableRotate = false; // Disable rotation
+        orbitControls.enablePan = false; // Disable panning
 
         window.addEventListener("resize", () => {
             const width = window.innerWidth;

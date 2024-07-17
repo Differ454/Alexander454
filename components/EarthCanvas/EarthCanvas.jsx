@@ -26,6 +26,8 @@ const EarthCanvas = () => {
         });
 
         const controls = new OrbitControls(camera, renderer.domElement);
+        controls.enableRotate = false; // Disable rotation
+        controls.enablePan = false; // Disable panning
         controls.enableZoom = false;
 
         window.addEventListener("resize", () => {
