@@ -55,6 +55,7 @@
         position: absolute;
         margin-left: 0rem;
         margin-top: 0rem;
+        top:28rem;
         z-index: 2;
     }
 }
@@ -70,6 +71,7 @@
         position: absolute;
         margin-left: 0rem;
         margin-top: 0rem;
+        top:28rem;
         z-index: 2;
     }
 
@@ -83,7 +85,8 @@
         height: 100vh;
         position: absolute;
         margin-left: 0rem;
-        margin-top: -2rem;
+        margin-top: 0rem;
+        top:20rem;
         z-index: 2;
     }
 

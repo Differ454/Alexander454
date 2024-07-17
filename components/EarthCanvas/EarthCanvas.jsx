@@ -11,6 +11,7 @@ import atmosphereFragmentShader from "./shaders/atmosphereFragment.glsl";
 const EarthCanvas = () => {
     useEffect(() => {
         const canvasContainer = document.querySelector("#canvasContainer");
+        if (!canvasContainer) return; // Ensure canvasContainer exists
         const scene = new THREE.Scene();
         const camera = new THREE.PerspectiveCamera(
             70,
@@ -30,16 +31,16 @@ const EarthCanvas = () => {
         controls.enablePan = false; // Disable panning
         controls.enableZoom = false;
 
-        window.addEventListener("resize", () => {
+        const resizeHandler =  () => {
             const width = window.innerWidth;
             const height = window.innerHeight;
             camera.aspect = width / height;
             camera.updateProjectionMatrix();
             renderer.setSize(width, height);
-        });
+        };
 
-        window.addEventListener("resize", resizeHandler);
-        resizeHandler(); // Initial call to set sizes
+         window.addEventListener("resize", resizeHandler);
+         resizeHandler(); // Initial call to set sizes
 
         renderer.setSize(canvasContainer.offsetWidth, canvasContainer.offsetHeight);
         renderer.setPixelRatio(window.devicePixelRatio);

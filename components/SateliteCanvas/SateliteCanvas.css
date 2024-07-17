@@ -36,8 +36,10 @@
         width: 45vw;
         height: 45vh;
         position: absolute;
-        left: -3rem;
-        top: -9rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        top: 0rem;
+        left: 0rem;
     }
 
 
@@ -53,8 +55,10 @@
         width: 45vw;
         height: 45vh;
         position: absolute;
-        left: -2rem;
-        top: -6rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        top: -10rem;
+        left: -3rem;
     }
 }
 
@@ -67,8 +71,25 @@
         width: 45vw;
         height: 45vh;
         position: absolute;
-        left: -3rem;
-        top: -9rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        top: 0rem;
+        left: 0rem;
     }
 
+}
+
+
+@media screen and (max-width: 375px) {
+
+    /* canvasContainerStateSpace css --> */
+    #canvasContainerSatelite {
+        width: 45vw;
+        height: 45vh;
+        position: absolute;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        top: -8rem;
+        left: -4rem;
+    }
 }

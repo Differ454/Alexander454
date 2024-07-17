@@ -30,13 +30,16 @@ const SateliteCanvas = () => {
         orbitControls.enableRotate = false; // Disable rotation
         orbitControls.enablePan = false; // Disable panning
 
-        window.addEventListener("resize", () => {
+        const resizeHandler =  () => {
             const width = window.innerWidth;
             const height = window.innerHeight;
             camera.aspect = width / height;
             camera.updateProjectionMatrix();
             renderer.setSize(width, height);
-        });
+        };
+
+        window.addEventListener("resize", resizeHandler);
+         resizeHandler(); // Initial call to set sizes
 
         renderer.setSize(canvasContainer.offsetWidth, canvasContainer.offsetHeight);
         renderer.setPixelRatio(window.devicePixelRatio);
@@ -65,6 +68,7 @@ const SateliteCanvas = () => {
         animate();
 
         return () => {
+            window.removeEventListener("resize", resizeHandler);
             renderer.dispose();
         };
     }, []);
