@@ -38,6 +38,9 @@ const EarthCanvas = () => {
             renderer.setSize(width, height);
         });
 
+        window.addEventListener("resize", resizeHandler);
+        resizeHandler(); // Initial call to set sizes
+
         renderer.setSize(canvasContainer.offsetWidth, canvasContainer.offsetHeight);
         renderer.setPixelRatio(window.devicePixelRatio);
 
@@ -80,6 +83,7 @@ const EarthCanvas = () => {
         animate();
 
         return () => {
+            window.removeEventListener("resize", resizeHandler);
             renderer.dispose();
         };
     }, []);
