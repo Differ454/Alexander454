@@ -55,9 +55,11 @@ body {
     background-image: url(../assets/space6.png);
 
 
-    background-attachment: fixed;
+    background-attachment: fixed; 
     background-size: cover;
     overflow-x: hidden;
+   
+   
    
 
 }
@@ -192,6 +194,10 @@ img:hover {
         width: var(--container-width-md);
     }
 
+    body {
+        background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    }
+
     section {
         margin-top: 6rem;
     }
@@ -225,6 +231,10 @@ img:hover {
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
+    }
+
+    body {
+        background-attachment: fixed; /* Keeps the background fixed while scrolling */
     }
 
     section>h2 {
