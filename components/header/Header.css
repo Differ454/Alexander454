@@ -147,13 +147,13 @@ header {
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 
   header {
-    height: 75vh;
+    height: 109vh;
     width: 100vw;
     overflow: hidden;
     position: relative;
     margin: 0;
     padding: 0;
-    top: -22rem;
+    top: -27rem;
     z-index: 2;
     left: 0rem;
 
@@ -167,7 +167,7 @@ header {
     position: relative;
     margin: 0;
     padding: 0;
-    top: 11rem;
+    top: 17rem;
 
   }
 
@@ -183,7 +183,7 @@ header {
     height: 33vh;
     position: absolute;
     left: calc(50% - 8rem);
-    top: 44%;
+    top: 18rem;
     
 
   }

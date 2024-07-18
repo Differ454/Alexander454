@@ -32,10 +32,11 @@
 
     #canvasContainer {
         width: 65vw;
-        height: 65vh;
+        height: 95vh;
         position: absolute;
-        margin-left: 18%;
-        margin-top: 16%;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        top:37rem;
         z-index: 2;
     }
 
