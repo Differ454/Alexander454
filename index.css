@@ -196,6 +196,7 @@ img:hover {
 
     body {
         background-attachment: fixed; /* Keeps the background fixed while scrolling */
+        background-size: cover;
     }
 
     section {
@@ -235,6 +236,7 @@ img:hover {
 
     body {
         background-attachment: fixed; /* Keeps the background fixed while scrolling */
+        background-size: cover;
     }
 
     section>h2 {
