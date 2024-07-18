@@ -280,9 +280,9 @@ img:hover {
         line-height: 1.7;
         background-image: url(../assets/space8.png);
         background-repeat: repeat;
-        background-size: 100%;
-        background-position-y: 25vh;
-        overflow-x: hidden;
+        background-size: auto;
+       
+        
         
     }
 }
