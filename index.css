@@ -54,8 +54,9 @@ body {
     line-height: 1.7;
     background-image: url(../assets/space6.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
+    min-height: 100%;
 
 
     /* background-attachment: fixed; 
@@ -235,8 +236,9 @@ img:hover {
         line-height: 1.7;
         background-image: url(../assets/space6.png);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         background-attachment: fixed;
+        min-height: 100%;
     }
 }
 
@@ -276,8 +278,9 @@ img:hover {
         line-height: 1.7;
         background-image: url(../assets/space6.png);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         background-attachment: fixed;
+        min-height: 100%;
     }
 }
 
@@ -315,8 +318,9 @@ img:hover {
         line-height: 1.7;
         background-image: url(../assets/space6.png);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         background-attachment: fixed;
+        min-height: 100%;
     }
 }
 
@@ -355,8 +359,9 @@ img:hover {
         line-height: 1.7;
         background-image: url(../assets/space6.png);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         background-attachment: fixed;
+        min-height: 100%;
     }
 }
 
@@ -397,8 +402,9 @@ img:hover {
         line-height: 1.7;
         background-image: url(../assets/space6.png);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         background-attachment: fixed;
+        min-height: 100%;
     }
 
 
