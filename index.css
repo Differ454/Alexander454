@@ -64,13 +64,7 @@ body {
 
 }
 
-/* Additional styling for mobile devices */
-@media screen and (max-width: 480px) {
-    body {
-        background-attachment: fixed; /* Keeps the background fixed while scrolling */
-        background-size: cover;
-    }
-}
+
 
 /*---------------- GENERAL STYLES --------------*/
 
@@ -262,5 +256,13 @@ img:hover {
     }
 
 
+}
+
+/* Additional styling for mobile devices */
+@media screen and (max-width: 480px) {
+    body {
+        background-attachment: fixed; /* Keeps the background fixed while scrolling */
+        background-size: cover;
+    }
 }
 
