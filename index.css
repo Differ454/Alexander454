@@ -228,8 +228,13 @@ img:hover {
     }
 
     body {
-        background-attachment: fixed; 
-        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+    background: rgb(0, 0, 0);
+    color: var(--color-white);
+    line-height: 1.7;
+    background-image: url(../assets/space6.png);
+    background-repeat: no-repeat;
+    background-size: auto;
     }
 }
 
@@ -263,8 +268,13 @@ img:hover {
     }
 
     body {
-        background-attachment: fixed; 
-        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(0, 0, 0);
+        color: var(--color-white);
+        line-height: 1.7;
+        background-image: url(../assets/space6.png);
+        background-repeat: no-repeat;
+        background-size: auto;
     }
 }
 
@@ -296,8 +306,13 @@ img:hover {
     }
 
     body {
-        background-attachment: fixed; 
-        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(0, 0, 0);
+        color: var(--color-white);
+        line-height: 1.7;
+        background-image: url(../assets/space6.png);
+        background-repeat: no-repeat;
+        background-size: auto;
     }
 }
 
@@ -330,8 +345,13 @@ img:hover {
     }
 
     body {
-        background-attachment: fixed; 
-        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(0, 0, 0);
+        color: var(--color-white);
+        line-height: 1.7;
+        background-image: url(../assets/space6.png);
+        background-repeat: no-repeat;
+        background-size: auto;
     }
 }
 
@@ -365,8 +385,13 @@ img:hover {
         color: rgb(219, 216, 216);
     }
     body {
-        background-attachment: fixed; 
-        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+    background: rgb(0, 0, 0);
+    color: var(--color-white);
+    line-height: 1.7;
+    background-image: url(../assets/space6.png);
+    background-repeat: no-repeat;
+    background-size: auto;
     }
 
 
