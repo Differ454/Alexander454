@@ -261,3 +261,12 @@ img:hover {
 
 
 }
+
+@media screen and (max-width: 480px) {
+    body {
+        background-attachment: fixed; /* Keeps the background fixed while scrolling */
+        background-size: cover;
+    }
+  
+  
+    }
