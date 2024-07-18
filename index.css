@@ -64,6 +64,13 @@ body {
 
 }
 
+/* Additional styling for mobile devices */
+@media screen and (max-width: 767px) {
+    body {
+        background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    }
+}
+
 /*---------------- GENERAL STYLES --------------*/
 
 .container {
@@ -194,10 +201,7 @@ img:hover {
         width: var(--container-width-md);
     }
 
-    body {
-        background-attachment: fixed; /* Keeps the background fixed while scrolling */
-        background-size: cover;
-    }
+    
 
     section {
         margin-top: 6rem;
@@ -234,10 +238,7 @@ img:hover {
         width: var(--container-width-sm);
     }
 
-    body {
-        background-attachment: fixed; /* Keeps the background fixed while scrolling */
-        background-size: cover;
-    }
+
 
     section>h2 {
         margin-bottom: 2rem;
@@ -262,11 +263,3 @@ img:hover {
 
 }
 
-@media screen and (max-width: 480px) {
-    body {
-        background-attachment: fixed; /* Keeps the background fixed while scrolling */
-        background-size: cover;
-    }
-  
-  
-    }
