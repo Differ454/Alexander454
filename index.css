@@ -281,7 +281,7 @@ img:hover {
         background-image: url(../assets/space6.png);
         background-repeat: no-repeat;
         background-size: 100%;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-position-y: 25vh;
         overflow-x: hidden;
     }
