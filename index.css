@@ -8,8 +8,8 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-   
-    
+
+
     /* overflow-x: hidden; */
 
 
@@ -30,16 +30,16 @@
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
-    
-   
-    
+
+
+
 }
 
 
 html {
 
     scroll-behavior: smooth;
-    
+
 }
 
 ::-webkit-scrollbar {
@@ -54,15 +54,16 @@ body {
     line-height: 1.7;
     background-image: url(../assets/space6.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100%;
+    background-attachment: fixed;
 
 
     /* background-attachment: fixed; 
     background-size: cover;
     overflow-x: hidden; */
-   
-   
-   
+
+
+
 
 }
 
@@ -71,10 +72,10 @@ body {
 /*---------------- GENERAL STYLES --------------*/
 
 .container {
-     width: auto; 
-     height: auto;
+    width: auto;
+    height: auto;
 
-} 
+}
 
 h1,
 h2,
@@ -92,7 +93,7 @@ h1 {
 
 section {
     margin-top: 8rem;
-    
+
 }
 
 section>h2,
@@ -193,12 +194,12 @@ img:hover {
 
 /*---------Media Queries (medium devices)------------------*/
 
-@media screen and (min-device-width: 768px) and  (max-width: 1024px) {
+@media screen and (min-device-width: 768px) and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
     }
 
-    
+
 
     section {
         margin-top: 6rem;
@@ -229,12 +230,13 @@ img:hover {
 
     body {
         font-family: 'Poppins', sans-serif;
-    background: rgb(0, 0, 0);
-    color: var(--color-white);
-    line-height: 1.7;
-    background-image: url(../assets/space6.png);
-    background-repeat: no-repeat;
-    background-size: auto;
+        background: rgb(0, 0, 0);
+        color: var(--color-white);
+        line-height: 1.7;
+        background-image: url(../assets/space6.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
     }
 }
 
@@ -274,7 +276,8 @@ img:hover {
         line-height: 1.7;
         background-image: url(../assets/space6.png);
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100%;
+        background-attachment: fixed;
     }
 }
 
@@ -312,12 +315,13 @@ img:hover {
         line-height: 1.7;
         background-image: url(../assets/space6.png);
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100%;
+        background-attachment: fixed;
     }
 }
 
 
-@media screen and (max-width: 375px) { 
+@media screen and (max-width: 375px) {
     .container {
         width: var(--container-width-sm);
     }
@@ -351,7 +355,8 @@ img:hover {
         line-height: 1.7;
         background-image: url(../assets/space6.png);
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100%;
+        background-attachment: fixed;
     }
 }
 
@@ -384,20 +389,22 @@ img:hover {
         font-style: Arial;
         color: rgb(219, 216, 216);
     }
+
     body {
         font-family: 'Poppins', sans-serif;
-    background: rgb(0, 0, 0);
-    color: var(--color-white);
-    line-height: 1.7;
-    background-image: url(../assets/space6.png);
-    background-repeat: no-repeat;
-    background-size: auto;
+        background: rgb(0, 0, 0);
+        color: var(--color-white);
+        line-height: 1.7;
+        background-image: url(../assets/space6.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
     }
 
 
 }
 
- /* ***************************IMPLEMENTING THE AVOID SCROLLING BACKGROUND TO MOBILE VERSION ************************************************ */
+/* ***************************IMPLEMENTING THE AVOID SCROLLING BACKGROUND TO MOBILE VERSION ************************************************ */
 
 /* Additional styling for mobile devices */
 /* @media screen and (max-width: 480px) {
@@ -408,4 +415,4 @@ img:hover {
 } */
 
 
- /* ***************************IMPLEMENTING THE AVOID SCROLLING BACKGROUND TO MOBILE VERSION ************************************************ */
+/* ***************************IMPLEMENTING THE AVOID SCROLLING BACKGROUND TO MOBILE VERSION ************************************************ */
