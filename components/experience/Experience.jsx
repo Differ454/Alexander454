@@ -21,7 +21,7 @@ function Experience() {
   return (
     <section id="experience">
       <h1>Experience</h1>
-      <h2>Software development</h2>
+      <h2> Software ~ Firmware Development</h2>
       <div className="container experience__container">
         <div className="experience__fontend">
           <h3>Frontend development</h3>
@@ -38,7 +38,7 @@ function Experience() {
               <SiCsswizardry className="experience__details-icon" size={28}/>
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
 
@@ -71,7 +71,7 @@ function Experience() {
               <SiThreedotjs className="experience__details-icon" size={28}/>
               <div>
                 <h4>ThreeJs</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article> 
           </div>
@@ -115,7 +115,7 @@ function Experience() {
             <article className="experience__details">
               <CgCPlusPlus className="experience__details-icon" size={28}/>
               <div>
-                <h4>C++ (Firmware)</h4>
+                <h4>C++ (Firmware ~ IoT)</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -123,15 +123,15 @@ function Experience() {
             <article className="experience__details">
               <SiCplusplus className="experience__details-icon" size={28}/>
               <div>
-                <h4>C (Firmware)</h4>
+                <h4> C (Firmware ~ IoT)</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <IoLogoPython className="experience__details-icon" size={70}/>
               <div>
-                <h4>Python ~ Machine Learning - Artificial Intelligence (Learning process)</h4>
-                <small className="text-light">beginner</small>
+                <h4>Python ~ Machine Learning - Artificial Intelligence </h4>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
           </div>

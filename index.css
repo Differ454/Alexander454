@@ -40,7 +40,9 @@ html {
 
     scroll-behavior: smooth;
 
+
 }
+
 
 ::-webkit-scrollbar {
     display: none;
@@ -52,23 +54,19 @@ body {
     background: rgb(0, 0, 0);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../assets/space6.png);
+    background-image: url(../assets/space10.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
     overflow-x: hidden;
 
-
-    /* background-attachment: fixed; 
-    background-size: cover;
-    overflow-x: hidden; */
-
-
-
-
 }
 
+#content {
+    height: 200%; /* Make the content taller than the viewport to trigger scrolling */
+    background: linear-gradient(to bottom, #fff, #ccc); /* Example content */
+}
 
 
 /*---------------- GENERAL STYLES --------------*/
@@ -194,9 +192,9 @@ img:hover {
 
 
 
-/*---------Media Queries (medium devices)------------------*/
+/*---------Media Queries (Tablets)------------------*/
 
-@media screen and (min-device-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
     }
@@ -235,7 +233,7 @@ img:hover {
         background: rgb(0, 0, 0);
         color: var(--color-white);
         line-height: 1.7;
-        background-image: url(../assets/space6.png);
+        background-image: url(../assets/space10.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -244,135 +242,8 @@ img:hover {
     }
 }
 
-/*--------- Responsive design  (Small devices)-- iPhone devices ----------------*/
+/*--------- Responsive design  (iPhone devices) ----------------*/
 
-@media screen and (max-width: 480px) {
-    .container {
-        width: var(--container-width-sm);
-    }
-
-
-
-    section>h2 {
-        margin-bottom: 2rem;
-    }
-
-    img:hover {
-        transform: scale(1.2);
-        /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-        transition: var(--transitionB);
-    }
-
-    .btn-primary-about {
-        margin-left: 40%;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-        font-style: Arial;
-        color: rgb(219, 216, 216);
-    }
-
-    body {
-        font-family: 'Poppins', sans-serif;
-        background: rgb(0, 0, 0);
-        color: var(--color-white);
-        line-height: 1.7;
-        background-image: url(../assets/space11.jpg);
-        background-repeat: repeat;
-        background-size: auto;
-       
-        
-        
-    }
-}
-
-@media screen and (min-width: 481px) and (max-width: 767px) {
-    .container {
-        width: var(--container-width-sm);
-    }
-
-
-
-    section>h2 {
-        margin-bottom: 2rem;
-    }
-
-    img:hover {
-        transform: scale(1.2);
-        /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-        transition: var(--transitionB);
-    }
-
-    .btn-primary-about {
-        margin-left: 40%;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-        font-style: Arial;
-        color: rgb(219, 216, 216);
-    }
-
-    body {
-        font-family: 'Poppins', sans-serif;
-        background: rgb(0, 0, 0);
-        color: var(--color-white);
-        line-height: 1.7;
-        background-image: url(../assets/space5.jpg);
-        background-repeat: no-repeat;
-        background-size: 50%;
-        background-attachment: fixed;
-        min-height: 50vh;
-        overflow-x: hidden;
-    }
-}
-
-
-@media screen and (max-width: 375px) {
-    .container {
-        width: var(--container-width-sm);
-    }
-
-
-
-    section>h2 {
-        margin-bottom: 2rem;
-    }
-
-    img:hover {
-        transform: scale(1.2);
-        /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-        transition: var(--transitionB);
-    }
-
-    .btn-primary-about {
-        margin-left: 40%;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-        font-style: Arial;
-        color: rgb(219, 216, 216);
-    }
-
-    body {
-        font-family: 'Poppins', sans-serif;
-        background: rgb(0, 0, 0);
-        color: var(--color-white);
-        line-height: 1.7;
-        background-image: url(../assets/space5.jpg);
-        background-repeat: no-repeat;
-        background-size: 50%;
-        background-attachment: fixed;
-        min-height: 50vh;
-        overflow-x: hidden;
-    }
-}
-
-
-/*---------Media Queries (Small Devices)------------------*/
-/* 
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
@@ -386,11 +257,11 @@ img:hover {
 
     img:hover {
         transform: scale(1.2);
-        /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) hola pedro*/
-/* transition: var(--transitionB); */
-/* } */
+        /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        transition: var(--transitionB);
+    }
 
-/* .btn-primary-about {
+    .btn-primary-about {
         margin-left: 40%;
     }
 
@@ -405,26 +276,12 @@ img:hover {
         background: rgb(0, 0, 0);
         color: var(--color-white);
         line-height: 1.7;
-        background-image: url(../assets/space5.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        min-height: 100vh;
-        overflow-x: hidden;
+        background-image: url(../assets/space10.jpg);
+        background-repeat: repeat;
+        background-size: auto;
+
+
+
     }
 
-
-} */
-
-/* ***************************IMPLEMENTING THE AVOID SCROLLING BACKGROUND TO MOBILE VERSION ************************************************ */
-
-/* Additional styling for mobile devices */
-/* @media screen and (max-width: 480px) {
-    body {
-        background-attachment: fixed; 
-        background-size: cover;
-    }
-} */
-
-
-/* ***************************IMPLEMENTING THE AVOID SCROLLING BACKGROUND TO MOBILE VERSION ************************************************ */
+}

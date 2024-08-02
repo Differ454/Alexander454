@@ -11,6 +11,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   margin-top: 110px;
+  
 }
 
 #experience h2 {
@@ -59,6 +60,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
+  padding-left: 5rem;
 }
 
 .experience__details {
@@ -81,8 +83,23 @@
 }
 
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
+@media screen and (min-width: 1728px) {
+  #experience {
+    position: relative;
+    top: -55rem;
+  }
+}
 
+@media screen and (max-width: 1440px) {
+  #experience {
+    
+    top: -42rem;
+  }
+}
+/*---------Media Queries (Tablets)------------------*/
+
+@media screen and (max-width: 1024px) {
+ 
   #experience {
 
     top: -49rem;
@@ -93,17 +110,30 @@
   }
 
   #experience h1 {
-    /* text-align: center; */
-    margin-top: 250px;
-    margin-left: 0%;
+    
+    margin-left: 0rem;
+    font-size: 1.9rem;
 
 
   }
 
+
+  
+  /* #about h5 {
+
+    margin-left: 0rem;
+    font-size: 1.9rem;
+  }
+
+  #about h2{
+
+    margin-left: 0rem;
+    font-size: 2.4rem;
+  } */
+
   #experience h2 {
-    text-align: center;
-    margin-top: 3px;
-    margin-left: 0%;
+    margin-left: 0rem;
+    font-size: 2.4rem;
   }
 
 
@@ -117,129 +147,150 @@
   .experience__content {
     padding: 1rem;
   }
+
+ 
+
+  
+
 }
 
-/*--------- Responsive design  (Small devices)-- iPhone devices ----------------*/
 
-@media screen and (max-width: 480px) {
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 600px) {
+ 
   #experience {
 
-    top: -47rem;
+    top: -49rem;
   }
 
   .experience__container {
-    width: 100%;
     grid-template-columns: 1fr;
   }
 
   #experience h1 {
-    /* text-align: center; */
-    margin-top: 250px;
-    margin-left: 0%;
-
-
-  }
-
-  #experience h2 {
-    text-align: center;
-    margin-top: 3px;
-    margin-left: 0%;
-  }
-
-
-  .experience__container>div {
-    width: 100%;
-    padding: 1rem;
-    margin: 0 auto;
-    margin-left: 0%;
-  }
-
-  .experience__content {
-    padding: 1rem;
-    margin-left: 1rem;
-  }
-}
-
-
-@media screen and (min-width: 481px) and (max-width: 767px) {
-  #experience {
-
-    top: -47rem;
-  }
-
-  .experience__container {
-    width: 100%;
-    grid-template-columns: 1fr;
-  }
-
-  #experience h1 {
-    /* text-align: center; */
-    margin-top: 250px;
-    margin-left: 0%;
-
-
-  }
-
-  #experience h2 {
-    text-align: center;
-    margin-top: 3px;
-    margin-left: 0%;
-  }
-
-
-  .experience__container>div {
-    width: 90%;
-    padding: 1rem;
-    margin: 0 auto;
-    margin-left: 1rem;
-  }
-
-  .experience__content {
-    padding: 1rem;
-    margin-left: 1rem;
-  }
-}
-
-@media screen and (max-width: 375px) { 
-  #experience {
-
-    top: -35rem;
-  }
-
-  .experience__container {
-    width: 100%;
-    grid-template-columns: 1fr;
     
-    padding: 0rem;
-    margin: 0 auto;
     margin-left: 0rem;
-  } 
-
-  #experience h1 {
-    /* text-align: center; */
-    margin-top: 250px;
-    margin-left: 0%;
+    font-size: 1.5rem;
 
 
   }
 
   #experience h2 {
-    text-align: center;
-    margin-top: 3px;
-    margin-left: 0%;
+    margin-left: 0rem;
+    font-size: 1.9rem;
   }
 
 
-  /* .experience__container>div {
+  .experience__container>div {
     width: 90%;
-    padding: 1rem;
+    padding: 2rem;
     margin: 0 auto;
-    margin-left: 1rem;
-  } */
+    margin-left: 3rem;
+  }
 
   .experience__content {
-    padding: 1rem;
-    margin-left: 1rem;
+    /* padding: 1rem; */
+    padding-left: 0rem;
+    font-size: 0.8rem;
   }
-    
+
+
 }
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 414px) {
+  .experience__container {
+    margin-left: -3%;
+  }
+}
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 393px) {
+  
+  #experience {
+
+    top: -40rem;
+  }
+
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
+
+  #experience h1 {
+    
+    margin-left: 0rem;
+    font-size: 2.2rem;
+
+
+  }
+
+  #experience h2 {
+    margin-left: 0rem;
+    font-size: 1.9rem;
+  }
+
+
+  .experience__container>div {
+    width: 90%;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-left: 1.8rem;
+  }
+
+  .experience__content {
+    /* padding: 1rem; */
+    padding-left: 2rem;
+    font-size: 0.8rem;
+  }
+
+  
+  
+
+}
+
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 375px) {
+
+  #experience {
+
+    top: -48em;
+  }
+  
+  .experience__container {
+    margin-left: -7%;
+  }
+ 
+
+}
+
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 360px) {
+
+  .experience__container {
+    margin-left: -5%;
+  }
+}
+
+
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 320px) {
+
+  #experience {
+
+    top: -60rem;
+  }
+  
+  .experience__container {
+    margin-left: -10%;
+  }
+}
+  
+  
+

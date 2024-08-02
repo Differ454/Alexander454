@@ -10,7 +10,7 @@ export default defineConfig({
         manualChunks: {
           react: ['react', 'react-dom'],
           // Other manual chunks...
-          gsap: ['gsap'], // GSAP animation library
+          // gsap: ['gsap'], // GSAP animation library
           three: ['three'], // Three.js 3D library
           reactIcons: ['react-icons'], // React Icons library
           // Add more manual chunks as needed

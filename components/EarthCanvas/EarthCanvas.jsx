@@ -31,7 +31,7 @@ const EarthCanvas = () => {
         controls.enablePan = false; // Disable panning
         controls.enableZoom = false;
 
-        const resizeHandler =  () => {
+        const resizeHandler = () => {
             const width = window.innerWidth;
             const height = window.innerHeight;
             camera.aspect = width / height;
@@ -39,8 +39,16 @@ const EarthCanvas = () => {
             renderer.setSize(width, height);
         };
 
-         window.addEventListener("resize", resizeHandler);
-         resizeHandler(); // Initial call to set sizes
+        window.addEventListener("resize", resizeHandler);
+        resizeHandler(); // Initial call to set sizes
+
+
+       
+
+
+
+
+
 
         renderer.setSize(canvasContainer.offsetWidth, canvasContainer.offsetHeight);
         renderer.setPixelRatio(window.devicePixelRatio);

@@ -73,9 +73,9 @@ footer a {
 }
 
 
-/* ********************************** MEDIA QUERIES (MEDIUM DEVICES) ************************ */
+/*---------Media Queries (Tablets)------------------*/
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
     #footer {
         width: 100vw;
@@ -83,11 +83,13 @@ footer a {
         top: 17rem;
         left: 0rem;
     }
+
 }
+
 
 /*--------- Responsive design  (Small devices)-- iPhone devices ----------------*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 
     #footer {
         width: 100vw;
@@ -108,55 +110,22 @@ footer a {
         margin-bottom: 2.6rem;
     }
 
+    footer a {
+        color: rgb(19, 179, 201);
+        font-size: 1.4rem;
+    
+    }
+
 
 
 }
 
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
 
-@media screen and (min-width: 481px) and (max-width: 767px) {
-
-    #footer {
-        width: 100vw;
-        position: relative;
-        top: 0rem;
-        left: 0rem;
-
-    }
-
-
-
-    .permalinks {
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-
-    .footer__socials {
-        margin-bottom: 2.6rem;
-    }
-
+@media screen and (max-width: 320px) {
+  
+  
+  
+  
 
 }
-
-@media screen and (max-width: 375px)  {
-    #footer {
-        
-        width: 100vw;
-        position: relative;
-        top: 20rem;
-        left: 0rem;
-
-    }
-
-
-
-    .permalinks {
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-
-    .footer__socials {
-        margin-bottom: 2.6rem;
-    }
-
-}
-

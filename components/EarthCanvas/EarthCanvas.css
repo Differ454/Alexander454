@@ -1,53 +1,19 @@
 /* Earth css --> */
 
 #canvasContainer {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: absolute;
     top: 3rem;
     z-index: 2;
+    overflow: hidden;
+    resize: vertical;
+    
 }
 
+/*---------Media Queries (Tablets)------------------*/
 
-/*---------Media Queries (large and medium devices)------------------*/
-@media screen and (min-width: 1920px) {
-
-    /* Earth css --> */
-    #canvasContainer {
-        width: 100vw;
-        height: 100vh;
-        position: absolute;
-        top: 7rem;
-        z-index: 2;
-    }
-
-
-}
-
-/*---------Media Queries (medium devices - Tablets)------------------*/
-
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-
-    /* Earth css --> */
-
-    #canvasContainer {
-        width: 65vw;
-        height: 95vh;
-        position: absolute;
-        margin-left: 0rem;
-        margin-top: 0rem;
-        top:37rem;
-        z-index: 2;
-    }
-
-
-}
-
-/*--------- Responsive design  (Small devices)-- iPhone devices ----------------*/
-
-
-@media screen and (max-width: 480px) {
-
+@media screen and (max-width: 1024px) {
     /* Earth css --> */
 
     #canvasContainer {
@@ -56,39 +22,44 @@
         position: absolute;
         margin-left: 0rem;
         margin-top: 0rem;
-        top:28rem;
+        top: 28rem;
         z-index: 2;
     }
+
 }
 
+/*--------- Responsive design  (iPhone devices) ----------------*/
 
-@media screen and (min-width: 481px) and (max-width: 767px) {
-
+@media screen and (max-width: 600px) {
     /* Earth css --> */
 
     #canvasContainer {
-        width: 100vw;
+        width: 100%;
         height: 90vh;
         position: absolute;
         margin-left: 0rem;
-        margin-top: 0rem;
-        top:28rem;
+        margin-top: -60%;
         z-index: 2;
+        overflow: hidden;
+       
     }
+
 
 }
 
-@media screen and (max-width: 375px) {
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 320px) {
     /* Earth css --> */
 
     #canvasContainer {
-        width: 100vw;
+        width: 100%;
         height: 100vh;
         position: absolute;
         margin-left: 0rem;
-        margin-top: 0rem;
-        top:20rem;
+        margin-top: -78%;
         z-index: 2;
     }
+
 
 }

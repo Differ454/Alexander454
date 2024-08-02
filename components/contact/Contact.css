@@ -78,9 +78,9 @@ textarea {
   color: var(--color-white)
 }
 
-/* ********************************** MEDIA QUERIES (MEDIUM DEVICES) ************************ */
+/*---------Media Queries (Tablets)------------------*/
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
   #contact {
     position: relative;
@@ -107,32 +107,30 @@ textarea {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+
 }
 
-/*--------- Responsive design  (Small devices)-- iPhone devices ----------------*/
 
-@media screen and (max-width: 480px) {
+
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 600px) {
 
   #contact {
-    
-    width: 100vw;
-    overflow-x: hidden;
     position: relative;
-    top: -71rem;
-    margin-left: 0rem;
-    
+    top: -65rem;
+    left: -1rem;
   }
 
   #contact h5 {
-    font-size: 1.4rem;
-    text-align: center;
-    margin-left: 0rem;
+    margin-left: 10%;
+    font-size: 1.5rem;
   }
 
   #contact h2 {
-    font-size: 1.2rem;
-    text-align: center;
-    margin-left: 0rem;
+    margin-left: 10%;
+    font-size: 1.9rem;
   }
 
   h5 {
@@ -141,7 +139,6 @@ textarea {
   }
 
   .container.contact__container {
-    margin-left: -1rem;
     grid-template-columns: 1fr;
     gap: 2rem;
   }
@@ -150,27 +147,25 @@ textarea {
 
 }
 
+/*--------- Responsive design  (iPhone devices) ----------------*/
 
-@media screen and (min-width: 481px) and (max-width: 767px) {
+@media screen and (max-width: 393px) {
+
 
   #contact {
-    width: 100vw;
-    overflow-x: hidden;
     position: relative;
-    top: -71rem;
-    margin-left: 0rem;
+    top: -53rem;
+    left: -1rem;
   }
 
   #contact h5 {
-    font-size: 1.4rem;
-    text-align: center;
-    margin-left: 0rem;
+    margin-left: 10%;
+    font-size: 1.5rem;
   }
 
   #contact h2 {
-    font-size: 1.2rem;
-    text-align: center;
-    margin-left: 0rem;
+    margin-left: 10%;
+    font-size: 1.9rem;
   }
 
   h5 {
@@ -179,34 +174,36 @@ textarea {
   }
 
   .container.contact__container {
-    margin-left: -1rem;
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+
+
+
 
 
 }
 
-@media screen and (max-width: 375px) { 
+
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 320px) {
+
   #contact {
-    
-    width: 100vw;
-    overflow-x: hidden;
     position: relative;
-    top: -33rem;
-    margin-left: 0rem;
+    top: -50rem;
+    left: -1rem;
+    
   }
 
   #contact h5 {
-    font-size: 1.4rem;
-    text-align: center;
-    margin-left: 0rem;
+    margin-left: 10%;
+    font-size: 1.5rem;
   }
 
   #contact h2 {
-    font-size: 1.2rem;
-    text-align: center;
-    margin-left: 0rem;
+    margin-left: 10%;
+    font-size: 1.9rem;
   }
 
   h5 {
@@ -215,9 +212,19 @@ textarea {
   }
 
   .container.contact__container {
-    margin-left: -1rem;
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-    
+
+  .contact__options {
+    margin-left: -20%;
+  }
+
+  form {
+    margin-left: -20%;
+  }
+
+
+
+
 }

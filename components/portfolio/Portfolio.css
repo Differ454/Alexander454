@@ -58,9 +58,9 @@
    margin-bottom: 1rem;
 }
 
-/*---------Media Queries (medium devices) Tablets------------------*/
+/*---------Media Queries (Tablets)------------------*/
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
+@media screen and (max-width: 1024px) {
 
    #portfolio {
       top: -41rem;
@@ -78,11 +78,13 @@
    }
 
 }
+
+
 /*--------- Responsive design  (Small devices)-- iPhone devices ----------------*/
 
 @media screen and (max-width: 480px) {
 
-  
+
    #portfolio {
 
       height: 454vh;
@@ -90,7 +92,6 @@
       overflow-x: hidden;
       position: relative;
       top: -33rem;
-      margin-bottom: 20px;
       margin-left: 0rem;
    }
 
@@ -98,13 +99,13 @@
       font-size: 1.4rem;
       text-align: center;
       margin-left: 0rem;
-    }
-  
-    #portfolio h2 {
+   }
+
+   #portfolio h2 {
       font-size: 1.2rem;
       text-align: center;
       margin-left: 0rem;
-    }
+   }
 
    .portfolio__container {
       height: 360vh;
@@ -113,58 +114,71 @@
       gap: 1rem;
       margin-left: 0rem;
    }
+
+
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+
+   #portfolio {
+
+      height: 454vh;
+      width: 100%;
+      overflow-x: hidden;
+      position: relative;
+      top: -33rem;
+      margin-left: 0rem;
+   }
+
+   #portfolio h5 {
+      font-size: 1.4rem;
+      text-align: center;
+      margin-left: 0rem;
+   }
+
+   #portfolio h2 {
+      font-size: 1.2rem;
+      text-align: center;
+      margin-left: 0rem;
+   }
+
+   .portfolio__container {
+      height: 360vh;
+      width: 100%;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin-left: 0rem;
+   }
+
+}
+
+@media screen and (max-width: 375px) {
+   #portfolio {
+
+      height: 454vh;
+      width: 100%;
+      overflow-x: hidden;
+      position: relative;
+      top: -45rem;
+      margin-left: 0rem;
+   }
+
+}
+
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 320px) {
+
+   #portfolio {
+
+      height: 454vh;
+      width: 100%;
+      overflow-x: hidden;
+      position: relative;
+      top: -50rem;
+      margin-left: 0rem;
+   }
+ }
    
-  
- }
- 
- 
- @media screen and (min-width: 481px) and (max-width: 767px) {
-
- 
-   #portfolio {
-
-      height: 454vh;
-      width: 100%;
-      overflow-x: hidden;
-      position: relative;
-      top: -33rem;
-      margin-bottom: 20px;
-      margin-left: 0rem;
-   }
-
-   #portfolio h5 {
-      font-size: 1.4rem;
-      text-align: center;
-      margin-left: 0rem;
-    }
-  
-    #portfolio h2 {
-      font-size: 1.2rem;
-      text-align: center;
-      margin-left: 0rem;
-    }
-
-   .portfolio__container {
-      height: 360vh;
-      width: 100%;
-      grid-template-columns: 1fr;
-      gap: 1rem;
-      margin-left: 0rem;
-   }
-  
- }
-
- @media screen and (max-width: 375px) { 
-   #portfolio {
-
-      height: 454vh;
-      width: 100%;
-      overflow-x: hidden;
-      position: relative;
-      top: -34rem;
-      margin-bottom: 20px;
-      margin-left: 0rem;
-   }
-     
- }
-

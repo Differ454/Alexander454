@@ -1,95 +1,93 @@
 /* canvasContainerStateSpace css --> */
 
 #canvasContainerSatelite {
-    width: 100vw;
-    height: 100vh;
+    width: 100% !important;
+    height: 100vh !important;
     position: absolute;
-    left: -38rem;
-    top: -10rem;
+    margin-left: -138%;
+    margin-top: -10rem;
+    display: inline-block;
+
 }
 
 
-/*---------Media Queries (large and medium devices)------------------*/
-@media screen and (min-width: 1920px) {
+
+
+/*---------Media Queries (Tablets)------------------*/
+
+@media screen and (max-width: 1024px) {
 
     /* canvasContainerStateSpace css --> */
 
     #canvasContainerSatelite {
-        width: 100vw;
-        height: 100vh;
+        width: 100% !important;
+        height: 100vh !important;
         position: absolute;
-        left: -48rem;
-        top: -15rem;
+        margin-left: -100%;
+        margin-top: -21rem;
+        display: inline-block;
+    }
+
+}
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 600px) {
+
+    /* canvasContainerStateSpace css --> */
+
+    #canvasContainerSatelite {
+        width: 45%;
+        height: 45vh;
+        position: absolute;
+        margin-left: -100%;
+        margin-top: -15rem;
+        display: inline-block;
+        
     }
 
 
 }
 
-/*---------Media Queries (medium devices - Tablets)------------------*/
-
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-
-
-    /* canvasContainerStateSpace css --> */
-
+@media screen and (max-width: 428px) {
     #canvasContainerSatelite {
-        width: 45vw;
-        height: 45vh;
-        position: absolute;
-        margin-left: 0rem;
-        margin-top: 0rem;
-        top: -15rem;
-        left: -10rem;
+        
+        margin-top: -20rem;
+        
+        
     }
-
-
 }
 
-/*--------- Responsive design  (Small devices)-- iPhone devices ----------------*/
+@media screen and (max-width: 393px) {
+    #canvasContainerSatelite {
+        
+        margin-top: -13rem;
+        
+        
+    }
+}
+@media screen and (max-width: 390px) {
+    #canvasContainerSatelite {
+        
+        margin-top: -13rem;
+        
+        
+    }
+}
 
-@media screen and (max-width: 480px) {
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 320px) {
 
     /* canvasContainerStateSpace css --> */
-
     #canvasContainerSatelite {
         width: 45vw;
         height: 45vh;
         position: absolute;
         margin-left: 0rem;
-        margin-top: 0rem;
-        top: -10rem;
+        margin-top: -40%;
         left: 0rem;
     }
-}
 
 
-@media screen and (min-width: 481px) and (max-width: 767px) {
-
-    /* canvasContainerStateSpace css --> */
-
-    #canvasContainerSatelite {
-        width: 45vw;
-        height: 45vh;
-        position: absolute;
-        margin-left: 0rem;
-        margin-top: 0rem;
-        top: 0rem;
-        left: 0rem;
-    }
-
-}
-
-
-@media screen and (max-width: 375px) {
-
-    /* canvasContainerStateSpace css --> */
-    #canvasContainerSatelite {
-        width: 45vw;
-        height: 45vh;
-        position: absolute;
-        margin-left: 0rem;
-        margin-top: 0rem;
-        top: -8rem;
-        left: 0rem;
-    }
 }
