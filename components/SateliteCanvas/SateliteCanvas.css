@@ -4,10 +4,43 @@
     width: 100% !important;
     height: 100vh !important;
     position: absolute;
-    margin-left: -138%;
-    margin-top: -10rem;
+    margin-left: -32%;
+    margin-top: -57rem;
     display: inline-block;
 
+}
+
+@media screen and (max-width: 2048px) {
+     /* canvasContainerStateSpace css --> */
+
+     #canvasContainerSatelite {
+
+        margin-top: -90rem;
+
+    }
+}
+
+/*---------Media Queries (Tablets)------------------*/
+
+@media screen and (max-width: 1920px) {
+    /* canvasContainerStateSpace css --> */
+
+    #canvasContainerSatelite {
+
+        margin-top: -80rem;
+
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    /* canvasContainerStateSpace css --> */
+
+    #canvasContainerSatelite {
+
+        margin-left: -32%;
+        margin-top: -57rem;
+
+    }
 }
 
 
@@ -43,7 +76,7 @@
         margin-left: -100%;
         margin-top: -15rem;
         display: inline-block;
-        
+
     }
 
 
@@ -51,27 +84,28 @@
 
 @media screen and (max-width: 428px) {
     #canvasContainerSatelite {
-        
+
         margin-top: -20rem;
-        
-        
+
+
     }
 }
 
 @media screen and (max-width: 393px) {
     #canvasContainerSatelite {
-        
+
         margin-top: -13rem;
-        
-        
+
+
     }
 }
+
 @media screen and (max-width: 390px) {
     #canvasContainerSatelite {
-        
+
         margin-top: -13rem;
-        
-        
+
+
     }
 }
 

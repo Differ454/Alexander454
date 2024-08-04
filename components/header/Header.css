@@ -93,7 +93,8 @@ header {
 @media screen and (min-width: 2048px) {
 
   header {
-    top: -38rem;
+    top: -110rem;
+    height: 140vh;
 
   }
 
@@ -115,7 +116,7 @@ header {
 
   header {
     height: 160vh;
-    top: -38rem;
+    top: -103rem;
 
   }
 
@@ -126,9 +127,7 @@ header {
 
   .Me {
 
-    margin-top: 43rem;
-    height: 55vh;
-    left: calc(52% - 14rem);
+    top: -8rem;
 
   }
 
@@ -166,7 +165,7 @@ header {
 
   header {
    
-    top: -38rem;
+    top: -85rem;
 
   }
 
@@ -177,7 +176,7 @@ header {
 
   .Me {
 
-    margin-top: 23rem;
+    margin-top: 34rem;
     height: 50vh;
     left: calc(56% - 14rem);
 

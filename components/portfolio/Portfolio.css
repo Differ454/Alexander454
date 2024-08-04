@@ -58,6 +58,12 @@
    margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 1440px) {
+   #portfolio {
+      top: -60rem;
+   }
+ }
+
 /*---------Media Queries (Tablets)------------------*/
 
 @media screen and (max-width: 1024px) {

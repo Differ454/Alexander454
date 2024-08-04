@@ -3,13 +3,13 @@
   margin: 0;
   padding: 0;
   top: -20rem;
-  
+
 
 }
 
-#about h5{
+#about h5 {
   font-size: 1.4rem;
-  
+
 
 }
 
@@ -17,30 +17,28 @@
 .about__container {
   display: grid;
   grid-template-columns: 35% 50%;
-  gap: 15%; 
-  
+  gap: 15%;
+
 }
 
 
 
 .about__cards {
-  
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   position: relative;
   left: -50%;
   gap: 1.5rem;
-  
+
 }
 
 .about__card {
-  background: linear-gradient(
-    45deg,
-    transparent,
-    var(--color-primary-variant),
-    transparent
-  );
-  
+  background: linear-gradient(45deg,
+      transparent,
+      var(--color-primary-variant),
+      transparent);
+
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
@@ -89,7 +87,7 @@
   width: 11vw;
   height: 10vh;
   position: absolute;
-  margin-left:130%;
+  margin-left: 130%;
   top: 7rem;
 }
 
@@ -130,6 +128,7 @@
   from {
     transform: rotateX(0deg) rotateY(0deg);
   }
+
   to {
     transform: rotateX(360deg) rotateY(360deg);
   }
@@ -141,7 +140,24 @@
 
 /* css cube */
 
-@media screen and (min-width: 1728px) {
+
+
+@media screen and (max-width: 1920px) {
+  #about {
+
+    top: -110rem;
+    height: 25vh;
+
+
+  }
+
+  .cube {
+    
+    top: 20rem;
+  }
+}
+
+@media screen and (max-width: 1728px) {
   #about {
     height: 100vh;
     width: 100vw;
@@ -149,16 +165,16 @@
     position: relative;
     top: -40rem;
     left: 0rem;
-    
+
   }
 }
 
 @media screen and (max-width: 1440px) {
   #about {
-    
-    top: -40rem;
-    
-    
+
+    top: -80rem;
+
+
   }
 }
 
@@ -173,7 +189,7 @@
     position: relative;
     top: -20rem;
     left: 0rem;
-    
+
   }
 
   #about h5 {
@@ -182,7 +198,7 @@
     font-size: 1.9rem;
   }
 
-  #about h2{
+  #about h2 {
 
     margin-left: 0rem;
     font-size: 2.4rem;
@@ -205,16 +221,16 @@
     margin-left: 0rem;
   }
 
-   .about__cards {
+  .about__cards {
     left: 0rem;
-  } 
+  }
 
- 
+
   .wrap {
     margin-left: 0rem;
-    
+
   }
-  
+
 
   .cube {
     transform-style: preserve-3d;
@@ -228,12 +244,12 @@
 }
 
 @media screen and (max-width: 768px) {
-   
+
   .cube {
-    
+
     top: 0rem;
   }
- 
+
 
 }
 
@@ -247,8 +263,8 @@
     position: relative;
     top: -30rem;
     left: 0rem;
-    
-    
+
+
   }
 
   #about h5 {
@@ -259,7 +275,7 @@
     left: 0rem;
   }
 
-  #about h2{
+  #about h2 {
     position: relative;
     margin-left: 0rem;
     font-size: 1.9rem;
@@ -284,23 +300,23 @@
     margin-left: 0rem;
   }
 
-   .about__cards {
+  .about__cards {
     gap: 0%;
     margin-left: 1%;
-    
-  } 
 
- 
+  }
+
+
   .wrap {
     margin-left: 0rem;
-    
+
   }
-  
+
 
   .cube {
-   margin-left: 33%;
-   width: 42vw;
-   top: 7rem;
+    margin-left: 33%;
+    width: 42vw;
+    top: 7rem;
   }
 
 
@@ -312,14 +328,14 @@
   .about__cards {
     gap: 0%;
     margin-right: 0%;
-    
-  } 
+
+  }
 }
 
 /*--------- Responsive design  (iPhone devices) ----------------*/
 
 @media screen and (max-width: 393px) {
-  
+
   #about {
     height: 160vh;
     width: 100vw;
@@ -327,7 +343,7 @@
     position: relative;
     top: -30rem;
     left: 0rem;
-    
+
   }
 
   #about h5 {
@@ -338,7 +354,7 @@
     left: 0rem;
   }
 
-  #about h2{
+  #about h2 {
     position: relative;
     margin-left: 0rem;
     font-size: 1.9rem;
@@ -363,26 +379,26 @@
     margin-left: 0rem;
   }
 
-   .about__cards {
-    
+  .about__cards {
+
     left: 0rem;
     grid-template-columns: 1fr;
-  } 
+  }
 
- 
+
   .wrap {
     margin-left: 0rem;
-    
+
   }
-  
+
 
   .cube {
-   margin-left: 33%;
-   width: 42vw;
-   top: 30rem;
+    margin-left: 33%;
+    width: 42vw;
+    top: 30rem;
   }
 
-  
+
 
 }
 
@@ -396,7 +412,7 @@
     position: relative;
     top: -45rem;
     left: 0rem;
-    
+
   }
 
   #about h5 {
@@ -407,7 +423,7 @@
     left: 0rem;
   }
 
-  #about h2{
+  #about h2 {
     position: relative;
     margin-left: 0rem;
     font-size: 1.9rem;
@@ -432,17 +448,17 @@
     margin-left: 0rem;
   }
 
-   .about__cards {
+  .about__cards {
     margin-top: 20px;
     grid-template-columns: 1fr;
-  } 
+  }
 
- 
+
   .wrap {
     margin-left: 0rem;
-    
+
   }
-  
+
 
   .cube {
     transform-style: preserve-3d;
@@ -455,48 +471,3 @@
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

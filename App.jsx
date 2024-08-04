@@ -10,6 +10,7 @@ const Footer = React.lazy(() => import('./components/footer/Footer'));
 const LegoCanvas = React.lazy(() => import('./components/LegoCanvas/LegoCanvas'));
 const EarthCanvas = React.lazy(() => import('./components/EarthCanvas/EarthCanvas'));
 const SateliteCanvas = React.lazy(() => import('./components/SateliteCanvas/SateliteCanvas'));
+const NaveCanvas = React.lazy(() => import('./components/NaveCanvas/NaveCanvas'));
 
 
 
@@ -28,6 +29,10 @@ const App = () => {
 
       <React.Suspense fallback={<div>Loading Satelite Canvas...</div>}>
         <SateliteCanvas />
+      </React.Suspense>
+
+      <React.Suspense fallback={<div>Loading Nave Canvas...</div>}>
+        <NaveCanvas />
       </React.Suspense>
 
 

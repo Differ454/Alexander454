@@ -1,0 +1,66 @@
+/* Avatar css --> Red Astrounaut */
+
+#canvasContainerAvatar {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0rem;
+}
+
+@media screen and (max-width: 2048px) {
+    #canvasContainerAvatar {
+        
+        top: -60rem;
+    }
+} 
+
+/*---------Media Queries (large and medium devices)------------------*/
+@media screen and (min-width: 1920px) {
+
+    /* Avatar css --> Red Astrounaut */
+
+    #canvasContainerAvatar {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        top: -6rem;
+    }
+
+}
+
+
+/*---------Media Queries (medium devices - Tablets)------------------*/
+
+@media screen and (max-width: 1024px) {
+
+    /* Avatar css --> Red Astrounaut */
+
+    #canvasContainerAvatar {
+        width: 100vw;
+        height: 50vh;
+        position: relative;
+        top: 20rem;
+        left: 0rem;
+    }
+
+
+}
+
+
+/*---------Small Queries (Small devices)------------------*/
+
+@media screen and (max-width: 600px) {
+
+    /* Avatar css --> Red Astrounaut */
+
+    #canvasContainerAvatar {
+        width: 80vw;
+        height: 25vh;
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+
+    }
+
+
+}

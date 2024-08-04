@@ -78,6 +78,19 @@ textarea {
   color: var(--color-white)
 }
 
+
+/*---------Media Queries (Laptop)------------------*/
+
+@media screen and (max-width: 1440px) {
+
+  #contact {
+    
+    top: -37rem;
+    
+  }
+
+}
+
 /*---------Media Queries (Tablets)------------------*/
 
 @media screen and (max-width: 1024px) {
