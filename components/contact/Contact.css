@@ -1,7 +1,7 @@
 #contact {
 
   position: relative;
-  margin: 0;
+  margin-bottom: 20px; 
   padding: 0;
   top: -15rem;
 
@@ -78,6 +78,15 @@ textarea {
   color: var(--color-white)
 }
 
+@media screen and (max-width: 1728px) {
+
+  #contact {
+    
+    top: -47rem;
+    
+  }
+}
+
 
 /*---------Media Queries (Laptop)------------------*/
 
@@ -91,13 +100,15 @@ textarea {
 
 }
 
+
+
 /*---------Media Queries (Tablets)------------------*/
 
 @media screen and (max-width: 1024px) {
 
   #contact {
     position: relative;
-    top: -37rem;
+    top: -51rem;
     left: -3rem;
   }
 
@@ -240,4 +251,34 @@ textarea {
 
 
 
+}
+
+@media screen and (min-width: 1280px) {
+  #contact {
+    
+    top: -70rem;
+    
+  }
+
+}
+
+@media screen and (min-width: 1920px) {
+ 
+  #contact {
+    
+    top: -25rem;
+    
+    
+  }
+}
+
+@media screen and (min-width: 2048px) {
+
+  #contact {
+    margin-bottom: 20px;
+    position: relative;
+    top: -120rem;
+    left: 0;
+    
+  }
 }

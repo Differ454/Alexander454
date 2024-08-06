@@ -13,23 +13,9 @@
 }
 
 
-@media screen and (max-width: 2048px) {
 
-    /* canvasContainerLego Astrounauts css --> */
 
-    #canvasContainerLego {
-        top: -16rem;
-    }
-}
 
-@media screen and (max-width: 1920px) {
-
-    /* canvasContainerLego Astrounauts css --> */
-
-    #canvasContainerLego {
-        top: -15rem;
-    }
-}
 
 
 @media screen and (max-width: 1728px) {
@@ -135,6 +121,16 @@
     }
 }
 
+@media screen and (max-width: 430px) {
+    #canvasContainerLego {
+        
+        top: -2rem;
+        left: -1rem;
+       
+
+    }
+}
+
 /*--------- Responsive design  (iPhone devices) ----------------*/
 
 @media screen and (max-width: 393px) {
@@ -191,4 +187,22 @@
     }
 
 
+}
+
+@media screen and (min-width: 1920px) {
+
+    /* canvasContainerLego Astrounauts css --> */
+
+    #canvasContainerLego {
+        top: -13rem;
+    }
+}
+
+@media screen and (min-width: 2048px) {
+
+    /* canvasContainerLego Astrounauts css --> */
+
+    #canvasContainerLego {
+        top: -16rem;
+    }
 }

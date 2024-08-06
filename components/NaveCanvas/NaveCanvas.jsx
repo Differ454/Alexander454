@@ -68,15 +68,16 @@ const Avatar = () => {
     camera.position.z = 290;
     camera.position.y = 130;
 
-    const mouse = {
-        x: undefined,
-        y: undefined,
-    };
+    // const mouse = {
+    //     x: undefined,
+    //     y: undefined,
+    // };
 
     //animate function
     const animate = () => {
-        orbitControls.update();
+        
         requestAnimationFrame(animate);
+        orbitControls.update();
         renderer.render(scene, camera);
     };
 

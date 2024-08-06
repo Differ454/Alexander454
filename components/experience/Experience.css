@@ -73,22 +73,8 @@
   color: var(--color-primary);
 }
 
-/*---------Media Queries (medium devices)------------------*/
-
-@media screen and (min-width: 1920px) {
-  #experience {
-    position: relative;
-    top: -35rem;
-  }
-}
 
 
-@media screen and (min-width: 1728px) {
-  #experience {
-    position: relative;
-    top: -55rem;
-  }
-}
 
 @media screen and (max-width: 1440px) {
   #experience {
@@ -102,7 +88,7 @@
  
   #experience {
 
-    top: -49rem;
+    top: -91rem;
   }
 
   .experience__container {
@@ -289,6 +275,40 @@
   
   .experience__container {
     margin-left: -10%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  #experience {
+    position: relative;
+    top: -100rem;
+  }
+}
+
+
+@media screen and (min-width: 1728px) {
+  #experience {
+    position: relative;
+    top: -100rem;
+  }
+}
+
+
+/*---------Media Queries (medium devices)------------------*/
+
+@media screen and (min-width: 1920px) {
+  #experience {
+    position: relative;
+    top: -55rem;
+  }
+}
+
+
+@media screen and (min-width: 2048px) {
+
+  #experience {
+
+    top: -200rem;
   }
 }
   

@@ -145,7 +145,7 @@
 @media screen and (max-width: 1920px) {
   #about {
 
-    top: -110rem;
+    top: -90rem;
     height: 25vh;
 
 
@@ -163,7 +163,7 @@
     width: 100vw;
     overflow: hidden;
     position: relative;
-    top: -40rem;
+    top: -100rem;
     left: 0rem;
 
   }
@@ -171,7 +171,7 @@
 
 @media screen and (max-width: 1440px) {
   #about {
-
+    height: 140vh;
     top: -80rem;
 
 
@@ -187,7 +187,7 @@
     width: 100vw;
     overflow: hidden;
     position: relative;
-    top: -20rem;
+    top: -89rem;
     left: 0rem;
 
   }
@@ -238,8 +238,18 @@
     height: 10vh;
     position: absolute;
     margin-left: 43%;
-    top: 12rem;
+    top: 28rem;
   }
+
+}
+
+@media screen and (max-width: 884px) {
+
+  .cube {
+
+    margin-top: -8rem;
+  }
+
 
 }
 
@@ -247,7 +257,7 @@
 
   .cube {
 
-    top: 0rem;
+    top: 25rem;
   }
 
 
@@ -469,5 +479,24 @@
     top: 34rem;
   }
 
+
+}
+
+@media screen and (min-width: 2048px) {
+
+  #about {
+    height: 250vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    top: -100rem;
+    left: 0rem;
+
+  }
+
+  .cube {
+    
+    top: 24rem;
+  }
 
 }

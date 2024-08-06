@@ -89,106 +89,14 @@ header {
   font-size: 1.2rem;
 }
 
-
-@media screen and (min-width: 2048px) {
-
-  header {
-    top: -110rem;
-    height: 140vh;
-
-  }
-
-  .header__container {
-
-    top: -2.5rem;
-  }
-
-  .Me {
-
-    margin-top: 43rem;
-    height: 45vh;
-
-  }
-
-}
-
-@media screen and (max-width: 1920px) {
-
-  header {
-    height: 160vh;
-    top: -103rem;
-
-  }
-
-  .header__container {
-
-    top: 0rem;
-  }
-
-  .Me {
-
-    top: -8rem;
-
-  }
-
-  .Me img {
-
-    width: 70%;
-    position: relative;
-    left: 3rem;
-    top: 2rem;
-  
-  }
-}
-
-@media screen and (min-width: 1728px) {
-
-  .Me {
-
-    margin-top: 43rem;
-    height: 45vh;
-    left: calc(52% - 14rem);
-
-  }
-
-  .Me img {
-
-    width: 70%;
-    position: relative;
-    left: 3rem;
-    top: 2rem;
-  
-  }
-}
-
-@media screen and (max-width: 1440px) {
-
-  header {
-   
-    top: -85rem;
-
-  }
-
-  .header__container {
-
-    top: 8rem;
-  }
-
-  .Me {
-
-    margin-top: 34rem;
-    height: 50vh;
-    left: calc(56% - 14rem);
-
-  }
-}
-
-
 /*---------Media Queries (Tablets)------------------*/
 
 @media screen and (max-width: 1024px) {
   header {
     height: 118vh;
+    top: -130rem;
+  
+    
   }
 
   .header__container {
@@ -202,8 +110,8 @@ header {
     width: 42%;
     height: 35vh;
     position: absolute;
-    left: calc(58% - 14rem);
-    margin-top: 50%;
+    left: calc(53% - 14rem);
+    top: 16rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 0rem 0.5rem 4.5rem;
@@ -234,38 +142,6 @@ header {
 
 }
 
-
-@media screen and (max-width: 884px) {
-  header {
-    height: 128vh;
-  }
-
-  .Me {
-    
-    height: 40vh;
-    
-  }
-
-}
-
-@media screen and (max-width: 768px) {
-  header {
-    height: 150vh;
-  }
-
-  .header__container {
-
-    top: 8rem;
-  }
-
-
-  .Me {
-
-    height: 40vh;
-
-  }
-
-}
 
 /*--------- Responsive design  (iPhone devices) ----------------*/
 
@@ -316,15 +192,7 @@ header {
 
 }
 
-/*--------- Responsive design  (iPhone devices) ----------------*/
 
-@media screen and (max-width: 428px) {
-  header {
-    
-    height: 138vh;
-  }
- 
-}
 
 /*--------- Responsive design  (iPhone devices) ----------------*/
 
@@ -492,8 +360,231 @@ header {
     width: 90%;
   }
 
+}
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 430px) {
+  header {
+    top: -103rem;
+    height: 138vh;
+  }
+ 
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    top: -95rem;
+    height: 150vh;
+  }
+
+  .header__container {
+
+    top: 8rem;
+  }
+
+
+  .Me {
+
+    height: 39vh;
+    left: calc(60% - 14rem);
+    top: 17rem;
+
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+  header {
+    top: -120rem;
+    height: 138vh;
+  }
+
+  .Me {
+    
+    height: 39vh;
+    left: calc(60% - 14rem);
+    top: 34rem;
+    
+}
+
+}
+
+@media screen and (min-width: 820px) {
+  header {
+    top: -105rem;
+    height: 138vh;
+  }
+
+  .Me {
+    
+    height: 35vh;
+    left: calc(60% - 14rem);
+    top: 34rem;
+    
+}
+
+}
+
+@media screen and (min-width: 834px) {
+
+  header {
+    top: -105rem;
+    height: 138vh;
+  }
+
+  .Me {
+    
+    height: 40vh;
+    left: calc(60% - 14rem);
+    top: 24rem;
+    
+}
+}
+
+@media screen and (min-width: 884px) {
+  header {
+    top: -104rem;
+    height: 138vh;
+  }
+
+  .Me {
+    
+    height: 40vh;
+    left: calc(55% - 14rem);
+    top: 22rem;
+   
+  }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+
+  header {
+   
+    top: -80rem;
+
+  }
+
+  .Me {
+
+    margin-top: 14rem;
+    height: 45vh;
+    left: calc(56% - 14rem);
+
+  }
+
+  .Me img {
+
+    width: 70%;
+    position: relative;
+    left: 3rem;
+    top: 2rem;
+  
+  }
+}
+
+
+@media screen and (min-width: 1440px) {
+
+  header {
+   
+    top: -86rem;
+
+  }
+
+  .header__container {
+
+    top: 8rem;
+  }
+
+  .Me {
+
+    margin-top: 14rem;
+    height: 50vh;
+    left: calc(56% - 14rem);
+
+  }
+}
 
 
 
+
+
+@media screen and (min-width: 1728px) {
+
+  header {
+    
+    top: -105rem;
+  }
+
+  .Me {
+
+    margin-top: 26rem;
+    height: 45vh;
+    left: calc(52% - 14rem);
+
+  }
+
+  .Me img {
+
+    width: 70%;
+    position: relative;
+    left: 3rem;
+    top: 2rem;
+  
+  }
+}
+
+@media screen and (min-width: 1920px) {
+
+  header {
+    height: 160vh;
+    top: -98rem;
+
+  }
+
+  .header__container {
+
+    top: 0rem;
+  }
+
+  .Me {
+
+    top: 12rem;
+    height: 55vh;
+
+  }
+
+  .Me img {
+
+    width: 70%;
+    position: relative;
+    left: 3rem;
+    top: 2rem;
+  
+  }
+}
+
+@media screen and (min-width: 2048px) {
+
+  header {
+    top: -110rem;
+    height: 140vh;
+
+  }
+
+  .header__container {
+
+    top: -2.5rem;
+  }
+
+  .Me {
+
+    top: 16rem;
+    height: 45vh;
+
+  }
 
 }

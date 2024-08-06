@@ -64,12 +64,19 @@
    }
  }
 
+ @media screen and (min-width: 1728px) {
+   #portfolio {
+      top: -70rem;
+   }
+ 
+ }
+
 /*---------Media Queries (Tablets)------------------*/
 
 @media screen and (max-width: 1024px) {
 
    #portfolio {
-      top: -41rem;
+      top: -61rem;
    }
 
    section>h2,
@@ -187,4 +194,29 @@
       margin-left: 0rem;
    }
  }
+
+ @media screen and (min-width: 1280px) {
+   #portfolio {
+      top: -80rem;
+   }
+ 
+ }
+
+ @media screen and (min-width: 1920px) {
+   #portfolio {
+      top: -40rem;
+   }
+ 
+ }
+
+ @media screen and (min-width: 2048px) {
+
+   #portfolio {
+
+      
+      top: -160rem;
+      
+   }
+ }
+   
    

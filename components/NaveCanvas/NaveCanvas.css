@@ -7,15 +7,24 @@
     top: 0rem;
 }
 
-@media screen and (max-width: 2048px) {
-    #canvasContainerAvatar {
-        
-        top: -60rem;
-    }
-} 
+
 
 /*---------Media Queries (large and medium devices)------------------*/
 @media screen and (min-width: 1920px) {
+
+    /* Avatar css --> Red Astrounaut */
+
+    #canvasContainerAvatar {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        top: 5rem;
+    }
+
+}
+
+/*---------Media Queries (large and medium devices)------------------*/
+@media screen and (max-width: 1440px) {
 
     /* Avatar css --> Red Astrounaut */
 
@@ -64,3 +73,12 @@
 
 
 }
+
+@media screen and (min-width: 2048px) {
+    #canvasContainerAvatar {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        top: 5rem;
+    }
+} 

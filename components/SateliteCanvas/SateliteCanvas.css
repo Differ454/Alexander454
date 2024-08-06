@@ -10,38 +10,6 @@
 
 }
 
-@media screen and (max-width: 2048px) {
-     /* canvasContainerStateSpace css --> */
-
-     #canvasContainerSatelite {
-
-        margin-top: -90rem;
-
-    }
-}
-
-/*---------Media Queries (Tablets)------------------*/
-
-@media screen and (max-width: 1920px) {
-    /* canvasContainerStateSpace css --> */
-
-    #canvasContainerSatelite {
-
-        margin-top: -80rem;
-
-    }
-}
-
-@media screen and (max-width: 1440px) {
-    /* canvasContainerStateSpace css --> */
-
-    #canvasContainerSatelite {
-
-        margin-left: -32%;
-        margin-top: -57rem;
-
-    }
-}
 
 
 
@@ -56,12 +24,32 @@
         width: 100% !important;
         height: 100vh !important;
         position: absolute;
-        margin-left: -100%;
-        margin-top: -21rem;
+        margin-left: 0rem;
+        margin-top: -111rem;
         display: inline-block;
     }
 
 }
+
+@media screen and (max-width: 884px) {
+    #canvasContainerSatelite {
+        
+        margin-left: 0rem;
+        margin-top: -80rem;
+        
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #canvasContainerSatelite {
+        
+        margin-left: 0rem;
+        margin-top: -93rem;
+        
+    }
+}
+
+
 
 /*--------- Responsive design  (iPhone devices) ----------------*/
 
@@ -124,4 +112,100 @@
     }
 
 
+}
+
+@media screen and (max-width: 430px) {
+    #canvasContainerSatelite {
+
+        margin-top: -84rem;
+        margin-left: 0rem;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #canvasContainerSatelite {
+        
+        margin-left: 0rem;
+        margin-top: -80rem;
+        
+    }
+}
+
+@media screen and (min-width: 820px) {
+ 
+    /* canvasContainerStateSpace css --> */
+    #canvasContainerSatelite {
+
+        margin-top: -95rem;
+
+    }
+
+}
+
+@media screen and (min-width: 834px) {
+ 
+    /* canvasContainerStateSpace css --> */
+    #canvasContainerSatelite {
+
+        margin-top: -95rem;
+
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+ 
+    /* canvasContainerStateSpace css --> */
+    #canvasContainerSatelite {
+
+        margin-top: -65rem;
+
+    }
+
+}
+    
+
+@media screen and (min-width: 1440px) {
+    /* canvasContainerStateSpace css --> */
+
+    #canvasContainerSatelite {
+
+        margin-top: -60rem;
+
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    
+   /* canvasContainerStateSpace css --> */
+
+   #canvasContainerSatelite {
+
+    margin-top: -90rem;
+
+}
+}
+
+/*---------Media Queries (Tablets)------------------*/
+
+@media screen and (min-width: 1920px) {
+    /* canvasContainerStateSpace css --> */
+
+    #canvasContainerSatelite {
+
+        margin-top: -80rem;
+        margin-left: -32%;
+
+    }
+}
+
+@media screen and (min-width: 2048px) {
+    /* canvasContainerStateSpace css --> */
+
+    #canvasContainerSatelite {
+
+       margin-top: -90rem;
+
+   }
 }

@@ -72,6 +72,14 @@ footer a {
     color: whitesmoke;
 }
 
+@media screen and (max-width: 1280px) {
+
+ #footer {
+        
+        top: 0;
+        left: 0;
+    }
+}
 
 /*---------Media Queries (Tablets)------------------*/
 
@@ -129,3 +137,15 @@ footer a {
   
 
 }
+
+@media screen and (min-width: 2048px) {
+
+    #footer {
+        width: 100vw;
+        position: relative;
+        top: 0;
+        left: 0;
+        
+
+    }
+  }
