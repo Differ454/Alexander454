@@ -58,127 +58,6 @@
    margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 1440px) {
-   #portfolio {
-      top: -60rem;
-   }
- }
-
- @media screen and (min-width: 1728px) {
-   #portfolio {
-      top: -70rem;
-   }
- 
- }
-
-/*---------Media Queries (Tablets)------------------*/
-
-@media screen and (max-width: 1024px) {
-
-   #portfolio {
-      top: -61rem;
-   }
-
-   section>h2,
-   section>h5 {
-      margin-left: 1%;
-   }
-
-   .portfolio__container {
-      grid-template-columns: 1fr 1fr;
-      gap: 1.2rem;
-      margin-left: 8%;
-   }
-
-}
-
-
-/*--------- Responsive design  (Small devices)-- iPhone devices ----------------*/
-
-@media screen and (max-width: 480px) {
-
-
-   #portfolio {
-
-      height: 454vh;
-      width: 100%;
-      overflow-x: hidden;
-      position: relative;
-      top: -33rem;
-      margin-left: 0rem;
-   }
-
-   #portfolio h5 {
-      font-size: 1.4rem;
-      text-align: center;
-      margin-left: 0rem;
-   }
-
-   #portfolio h2 {
-      font-size: 1.2rem;
-      text-align: center;
-      margin-left: 0rem;
-   }
-
-   .portfolio__container {
-      height: 360vh;
-      width: 100%;
-      grid-template-columns: 1fr;
-      gap: 1rem;
-      margin-left: 0rem;
-   }
-
-
-}
-
-
-@media screen and (min-width: 481px) and (max-width: 767px) {
-
-
-   #portfolio {
-
-      height: 454vh;
-      width: 100%;
-      overflow-x: hidden;
-      position: relative;
-      top: -33rem;
-      margin-left: 0rem;
-   }
-
-   #portfolio h5 {
-      font-size: 1.4rem;
-      text-align: center;
-      margin-left: 0rem;
-   }
-
-   #portfolio h2 {
-      font-size: 1.2rem;
-      text-align: center;
-      margin-left: 0rem;
-   }
-
-   .portfolio__container {
-      height: 360vh;
-      width: 100%;
-      grid-template-columns: 1fr;
-      gap: 1rem;
-      margin-left: 0rem;
-   }
-
-}
-
-@media screen and (max-width: 375px) {
-   #portfolio {
-
-      height: 454vh;
-      width: 100%;
-      overflow-x: hidden;
-      position: relative;
-      top: -45rem;
-      margin-left: 0rem;
-   }
-
-}
 
 /*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
 
@@ -193,30 +72,607 @@
       top: -50rem;
       margin-left: 0rem;
    }
- }
+}
 
- @media screen and (min-width: 1280px) {
+@media screen and (max-width: 360px) {}
+
+@media screen and (max-width: 375px) {
    #portfolio {
-      top: -80rem;
+
+      height: 454vh;
+      width: 100%;
+      overflow-x: hidden;
+      position: relative;
+      top: -45rem;
+      margin-left: 0rem;
    }
- 
- }
 
- @media screen and (min-width: 1920px) {
+}
+
+
+@media screen and (max-width: 390px) {
    #portfolio {
-      top: -40rem;
+
+      height: 490vh;
+      width: 100%;
+      overflow-x: hidden;
+      position: relative;
+      top: -130rem;
+      margin-left: 0rem;
    }
- 
- }
 
- @media screen and (min-width: 2048px) {
+}
+
+@media screen and (max-width: 393px) {
+   #portfolio {
+
+      height: 490vh;
+      width: 100%;
+      overflow-x: hidden;
+      position: relative;
+      top: -130rem;
+      margin-left: 0rem;
+   }
+
+}
+
+@media screen and (max-width: 414px) {}
+
+@media screen and (max-width: 428px) {}
+
+@media screen and (max-width: 430px) {
+   #portfolio {
+
+      height: 454vh;
+      width: 100%;
+      overflow-x: hidden;
+      position: relative;
+      top: -123rem;
+      margin-left: 0rem;
+   }
+
+   .portfolio__container {
+      height: 360vh;
+      width: 100%;
+      grid-template-columns: 1fr;
+      gap: 6rem;
+      margin-left: 0rem;
+   }
+}
+
+/*--------- Responsive design  (Small devices)-- iPhone devices ----------------*/
+
+@media screen and (min-width: 768px) {
+
 
    #portfolio {
 
-      
+      height: auto;
+      width: 100%;
+      overflow-x: hidden;
+      position: relative;
+      top: -100rem;
+      margin-left: 0rem;
+   }
+
+   #portfolio h5 {
+      font-size: 2.1rem;
+      text-align: center;
+      margin-left: 0rem;
+   }
+
+   #portfolio h2 {
+      font-size: 1.9rem;
+      text-align: center;
+      margin-left: 0rem;
+   }
+
+   .portfolio__container {
+      height: auto;
+      width: 100%;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin-left: 0rem;
+   }
+
+
+}
+
+@media screen and (min-width: 800px) {
+
+
+   #portfolio {
+
+      height: auto;
+      width: 100%;
+      overflow-x: hidden;
+      position: relative;
       top: -160rem;
-      
+      margin-left: 0rem;
    }
- }
+
+   #portfolio h5 {
+      font-size: 2.1rem;
+      text-align: center;
+      margin-left: 0rem;
+   }
+
+   #portfolio h2 {
+      font-size: 1.9rem;
+      text-align: center;
+      margin-left: 0rem;
+   }
+
+   .portfolio__container {
+      height: auto;
+      width: 100%;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin-left: 0rem;
+   }
+
+}
+
+@media screen and (min-width: 820px) {
+
+   #portfolio {
+
+      height: auto;
+      width: 100%;
+      overflow-x: hidden;
+      position: relative;
+      top: -120rem;
+      margin-left: 0rem;
+   }
+
+   #portfolio h5 {
+      font-size: 2.1rem;
+      text-align: center;
+      margin-left: 0rem;
+   }
+
+   #portfolio h2 {
+      font-size: 1.9rem;
+      text-align: center;
+      margin-left: 0rem;
+   }
+
+   .portfolio__container {
+      height: auto;
+      width: 100%;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin-left: 0rem;
+   }
+}
+
+@media screen and (min-width: 834px) {
+
+   #portfolio {
+
+      height: auto;
+      width: 100%;
+      overflow-x: hidden;
+      position: relative;
+      top: -120rem;
+      margin-left: 0rem;
+   }
+
+   #portfolio h5 {
+      font-size: 2.1rem;
+      text-align: center;
+      margin-left: 0rem;
+   }
+
+   #portfolio h2 {
+      font-size: 1.9rem;
+      text-align: center;
+      margin-left: 0rem;
+   }
+
+   .portfolio__container {
+      height: auto;
+      width: 100%;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin-left: 0rem;
+   }
+}
+
+@media screen and (min-width: 884px) {
+
+   #portfolio {
+
+      height: auto;
+      width: 100%;
+      overflow-x: hidden;
+      position: relative;
+      top: -120rem;
+      margin-left: 0rem;
+   }
+
+   #portfolio h5 {
+      font-size: 2.1rem;
+      text-align: center;
+      margin-left: 0rem;
+   }
+
+   #portfolio h2 {
+      font-size: 1.9rem;
+      text-align: center;
+      margin-left: 0rem;
+   }
+
+   .portfolio__container {
+      height: auto;
+      width: 100%;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin-left: 0rem;
+   }
+}
+
+
+@media screen and (min-width: 1280px) {
+  
+
+
+   #portfolio {
+
+
+      top: -90rem;
+      height: 200vh;
+
+   }
+
+   #portfolio h5 {
+
+      font-size: 2.1rem;
+   }
+
+   #portfolio h2 {
+
+      font-size: 1.9rem;
+   }
    
    
+   .item-image .ptc {
+      border-radius: 1rem;
+      width: 100%;
+      height: 17rem;
+   }
+   
+   .item-image .ptc:hover {
+      transform: scale(0.9);
+    
+      transition: var(--transitionB);
+   
+   }
+   
+   .portfolio__container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+      margin-left: 0rem;
+      height: auto;
+      margin-top: 10rem;
+   }
+   
+   .portfolio__item {
+      background: linear-gradient(45deg,
+            transparent,
+            var(--color-primary-variant),
+            transparent);
+      padding: 1.2rem;
+      border-radius: 2rem;
+   
+      transition: var(--transitionB);
+   }
+   
+   .portfolio__item:hover {
+      border-color: var(--color-primary-variant);
+      background: transparent;
+      box-shadow: 0 0 20px #6eebda;
+   }
+   
+   .portfolio__item h3 {
+      margin: 1.2rem 0 2rem;
+      font-size: 1.5rem;
+   }
+   
+   .portfolio__item-cta {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+   }
+
+}
+
+@media screen and (min-width: 1440px) {
+   #portfolio {
+
+
+      top: -40rem;
+      height: 200vh;
+
+   }
+
+   #portfolio h5 {
+
+      font-size: 2.1rem;
+   }
+
+   #portfolio h2 {
+
+      font-size: 1.9rem;
+   }
+   
+   
+   .item-image .ptc {
+      border-radius: 1rem;
+      width: 100%;
+      height: 17rem;
+   }
+   
+   .item-image .ptc:hover {
+      transform: scale(0.9);
+    
+      transition: var(--transitionB);
+   
+   }
+   
+   .portfolio__container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+      margin-left: 0rem;
+      height: auto;
+      margin-top: 10rem;
+   }
+   
+   .portfolio__item {
+      background: linear-gradient(45deg,
+            transparent,
+            var(--color-primary-variant),
+            transparent);
+      padding: 1.2rem;
+      border-radius: 2rem;
+   
+      transition: var(--transitionB);
+   }
+   
+   .portfolio__item:hover {
+      border-color: var(--color-primary-variant);
+      background: transparent;
+      box-shadow: 0 0 20px #6eebda;
+   }
+   
+   .portfolio__item h3 {
+      margin: 1.2rem 0 2rem;
+      font-size: 2.1rem;
+   }
+   
+   .portfolio__item-cta {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+   }
+}
+
+@media screen and (min-width: 1728px) {
+   #portfolio {
+
+
+      top: -120rem;
+      height: 150vh;
+
+   }
+
+   #portfolio h5 {
+
+      font-size: 2.4rem;
+   }
+
+   #portfolio h2 {
+
+      font-size: 2.4rem;
+   }
+
+
+   .item-image .ptc {
+      border-radius: 1rem;
+      width: 100%;
+      height: 17rem;
+   }
+
+   .item-image .ptc:hover {
+      transform: scale(0.9);
+      /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      transition: var(--transitionB);
+
+   }
+
+   .portfolio__container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+      margin-left: 0rem;
+      height: auto;
+      margin-top: 10rem;
+   }
+
+   .portfolio__item {
+      background: linear-gradient(45deg,
+            transparent,
+            var(--color-primary-variant),
+            transparent);
+      padding: 1.2rem;
+      border-radius: 2rem;
+
+      transition: var(--transitionB);
+   }
+
+   .portfolio__item:hover {
+      border-color: var(--color-primary-variant);
+      background: transparent;
+      box-shadow: 0 0 20px #6eebda;
+   }
+
+   .portfolio__item h3 {
+      margin: 1.2rem 0 2rem;
+      font-size: 2.1rem;
+   }
+
+   .portfolio__item-cta {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+   }
+
+}
+
+
+@media screen and (min-width: 1920px) {
+   #portfolio {
+
+
+      top: -90rem;
+      height: 150vh;
+
+   }
+
+   #portfolio h5 {
+
+      font-size: 2.4rem;
+   }
+
+   #portfolio h2 {
+
+      font-size: 2.4rem;
+   }
+
+
+   .item-image .ptc {
+      border-radius: 1rem;
+      width: 100%;
+      height: 17rem;
+   }
+
+   .item-image .ptc:hover {
+      transform: scale(0.9);
+      /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      transition: var(--transitionB);
+
+   }
+
+   .portfolio__container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+      margin-left: 0rem;
+      height: auto;
+      margin-top: 10rem;
+   }
+
+   .portfolio__item {
+      background: linear-gradient(45deg,
+            transparent,
+            var(--color-primary-variant),
+            transparent);
+      padding: 1.2rem;
+      border-radius: 2rem;
+
+      transition: var(--transitionB);
+   }
+
+   .portfolio__item:hover {
+      border-color: var(--color-primary-variant);
+      background: transparent;
+      box-shadow: 0 0 20px #6eebda;
+   }
+
+   .portfolio__item h3 {
+      margin: 1.2rem 0 2rem;
+      font-size: 2.1rem;
+   }
+
+   .portfolio__item-cta {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+   }
+
+}
+
+@media screen and (min-width: 2048px) {
+
+   #portfolio {
+
+
+      top: -100rem;
+      height: 150vh;
+
+   }
+
+   #portfolio h5 {
+
+      font-size: 2.4rem;
+   }
+
+   #portfolio h2 {
+
+      font-size: 2.4rem;
+   }
+
+
+   .item-image .ptc {
+      border-radius: 1rem;
+      width: 100%;
+      height: 17rem;
+   }
+
+   .item-image .ptc:hover {
+      transform: scale(0.9);
+      /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      transition: var(--transitionB);
+
+   }
+
+   .portfolio__container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+      margin-left: 0rem;
+      height: auto;
+      margin-top: 20rem;
+   }
+
+   .portfolio__item {
+      background: linear-gradient(45deg,
+            transparent,
+            var(--color-primary-variant),
+            transparent);
+      padding: 1.2rem;
+      border-radius: 2rem;
+
+      transition: var(--transitionB);
+   }
+
+   .portfolio__item:hover {
+      border-color: var(--color-primary-variant);
+      background: transparent;
+      box-shadow: 0 0 20px #6eebda;
+   }
+
+   .portfolio__item h3 {
+      margin: 1.2rem 0 2rem;
+      font-size: 2.1rem;
+   }
+
+   .portfolio__item-cta {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+   }
+
+}

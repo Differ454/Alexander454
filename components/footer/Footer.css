@@ -1,5 +1,6 @@
 #footer {
 
+
     position: relative;
     /* margin: 0; */
     padding: 3rem 0;
@@ -72,80 +73,197 @@ footer a {
     color: whitesmoke;
 }
 
-@media screen and (max-width: 1280px) {
-
- #footer {
-        
-        top: 0;
-        left: 0;
-    }
-}
-
-/*---------Media Queries (Tablets)------------------*/
-
-@media screen and (max-width: 1024px) {
-
-    #footer {
-        width: 100vw;
-        position: relative;
-        top: 17rem;
-        left: 0rem;
-    }
-
-}
 
 
-/*--------- Responsive design  (Small devices)-- iPhone devices ----------------*/
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {}
+
+@media screen and (max-width: 360px) {}
+
+@media screen and (max-width: 375px) {}
+
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 390px) {
 
     #footer {
         width: 100vw;
         position: relative;
-        top: 0rem;
+        margin-top: -120rem;
         left: 0rem;
 
     }
-
-
-
-    .permalinks {
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-
-    .footer__socials {
-        margin-bottom: 2.6rem;
-    }
-
-    footer a {
-        color: rgb(19, 179, 201);
-        font-size: 1.4rem;
-    
-    }
-
-
 
 }
 
 /*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
 
-@media screen and (max-width: 320px) {
-  
-  
-  
-  
+@media screen and (max-width: 393px) {
 
+    #footer {
+        width: 100vw;
+        position: relative;
+        margin-top: -120rem;
+        left: 0rem;
+
+    }
+
+}
+
+@media screen and (max-width: 414px) {}
+
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 428px) {
+
+    #footer {
+        width: 100vw;
+        position: relative;
+        margin-top: -120rem;
+        left: 0rem;
+
+    }
+
+}
+
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 430px) {
+
+    #footer {
+        width: 100vw;
+        position: relative;
+        margin-top: -60rem;
+        left: 0rem;
+
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    #footer {
+        width: 100vw;
+        position: relative;
+        margin-top: -130rem;
+        left: 0rem;
+
+    } 
+}
+
+@media screen and (min-width: 800px) {
+
+     #footer {
+        width: 100vw;
+        position: relative;
+        margin-top: -190rem;
+        left: 0rem;
+
+    } 
+}
+
+@media screen and (min-width: 820px) {
+
+    #footer {
+        width: 100vw;
+        position: relative;
+        margin-top: -160rem;
+        left: 0rem;
+
+    }
+}
+
+@media screen and (min-width: 834px) {
+
+    #footer {
+        width: 100vw;
+        position: relative;
+        margin-top: -160rem;
+        left: 0rem;
+
+    }
+}
+
+@media screen and (min-width: 884px) {
+
+    #footer {
+        width: 100vw;
+        position: relative;
+        margin-top: -160rem;
+        left: 0rem;
+
+    }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+
+    #footer {
+
+        position: relative;
+        left: 0;
+        margin-top: -130rem;
+        margin-bottom: -40rem;
+        margin-right: -1rem;
+
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    #footer {
+
+        position: relative;
+        left: 0;
+        margin-top: -80rem;
+        margin-bottom: -40rem;
+        margin-right: -1rem;
+
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    #footer {
+
+        position: relative;
+        left: 0;
+        margin-top: -150rem;
+        margin-bottom: -40rem;
+        margin-right: -1rem;
+
+
+
+
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+    #footer {
+
+        position: relative;
+        left: 0;
+        margin-top: -120rem;
+        margin-bottom: -40rem;
+        margin-right: -1rem;
+
+
+    }
 }
 
 @media screen and (min-width: 2048px) {
 
     #footer {
-        width: 100vw;
+
         position: relative;
-        top: 0;
         left: 0;
-        
+        margin-top: -150rem;
+        margin-bottom: -40rem;
+        margin-right: -1rem;
 
     }
-  }
+}

@@ -8,44 +8,13 @@
     z-index: 2;
     overflow: hidden;
     resize: vertical;
-    
-}
-
-/*---------Media Queries (Tablets)------------------*/
-
-@media screen and (max-width: 1024px) {
-    /* Earth css --> */
-
-    #canvasContainer {
-        width: 100vw;
-        height: 90vh;
-        position: absolute;
-        margin-left: 0rem;
-        margin-top: 0rem;
-        top: 28rem;
-        z-index: 2;
-    }
 
 }
 
-/*--------- Responsive design  (iPhone devices) ----------------*/
-
-@media screen and (max-width: 600px) {
-    /* Earth css --> */
-
-    #canvasContainer {
-        width: 100%;
-        height: 90vh;
-        position: absolute;
-        margin-left: 0rem;
-        margin-top: -50%;
-        z-index: 2;
-        overflow: hidden;
-       
-    }
 
 
-}
+
+
 
 /*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
 
@@ -62,4 +31,142 @@
     }
 
 
+}
+
+@media screen and (max-width: 360px) {}
+
+
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 375px) {
+    /* Earth css --> */
+
+
+    #canvasContainer {
+
+        margin-top: -80%;
+
+
+    }
+
+}
+
+@media screen and (max-width: 390px) {}
+
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 393px) {
+    /* Earth css --> */
+
+    #canvasContainer {
+
+        margin-top: -60%;
+
+
+    }
+
+}
+
+@media screen and (max-width: 414px) {}
+
+@media screen and (max-width: 428px) {}
+
+@media screen and (max-width: 430px) {}
+
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (min-width: 768px) {
+    
+
+    #canvasContainer {
+
+        top: 14rem;
+
+    }
+
+
+}
+
+@media screen and (min-width: 800px) {
+    #canvasContainer {
+
+        top: 12rem;
+
+    }
+}
+
+@media screen and (min-width: 820px) {
+    #canvasContainer {
+
+        top: 12rem;
+
+    }
+}
+
+@media screen and (min-width: 834px) {
+
+    #canvasContainer {
+
+        top: 12rem;
+
+    }
+}
+
+@media screen and (min-width: 884px) {
+
+    #canvasContainer {
+
+        top: 15rem;
+
+    }
+}
+
+
+/*---------Media Queries (Tablets)------------------*/
+
+@media screen and (min-width: 1280px) {
+    
+    #canvasContainer {
+
+        top: 6rem;
+
+    }
+
+}
+  
+@media screen and (min-width: 1440px) {
+
+    #canvasContainer {
+
+        top: 18rem;
+
+    }
+}
+  
+
+@media screen and (min-width: 1728px) {
+
+    #canvasContainer {
+
+        top: 15rem;
+
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    #canvasContainer {
+
+        top: 15rem ;
+
+    }
+} 
+
+@media screen and (min-width: 2048px) {
+
+    #canvasContainer {
+
+        top: 14rem ;
+
+    }
 }

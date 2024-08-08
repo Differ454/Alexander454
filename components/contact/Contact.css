@@ -1,7 +1,7 @@
 #contact {
 
   position: relative;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   padding: 0;
   top: -15rem;
 
@@ -78,136 +78,6 @@ textarea {
   color: var(--color-white)
 }
 
-@media screen and (max-width: 1728px) {
-
-  #contact {
-    
-    top: -47rem;
-    
-  }
-}
-
-
-/*---------Media Queries (Laptop)------------------*/
-
-@media screen and (max-width: 1440px) {
-
-  #contact {
-    
-    top: -37rem;
-    
-  }
-
-}
-
-
-
-/*---------Media Queries (Tablets)------------------*/
-
-@media screen and (max-width: 1024px) {
-
-  #contact {
-    position: relative;
-    top: -51rem;
-    left: -3rem;
-  }
-
-  #contact h5 {
-    margin-left: 10%;
-    font-size: 1.5rem;
-  }
-
-  #contact h2 {
-    margin-left: 10%;
-    font-size: 1.9rem;
-  }
-
-  h5 {
-    margin-left: 0%;
-    font-size: 1.5rem;
-  }
-
-  .container.contact__container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-
-}
-
-
-
-
-/*--------- Responsive design  (iPhone devices) ----------------*/
-
-@media screen and (max-width: 600px) {
-
-  #contact {
-    position: relative;
-    top: -65rem;
-    left: -1rem;
-  }
-
-  #contact h5 {
-    margin-left: 10%;
-    font-size: 1.5rem;
-  }
-
-  #contact h2 {
-    margin-left: 10%;
-    font-size: 1.9rem;
-  }
-
-  h5 {
-    margin-left: 0%;
-    font-size: 1.5rem;
-  }
-
-  .container.contact__container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-
-
-
-}
-
-/*--------- Responsive design  (iPhone devices) ----------------*/
-
-@media screen and (max-width: 393px) {
-
-
-  #contact {
-    position: relative;
-    top: -53rem;
-    left: -1rem;
-  }
-
-  #contact h5 {
-    margin-left: 10%;
-    font-size: 1.5rem;
-  }
-
-  #contact h2 {
-    margin-left: 10%;
-    font-size: 1.9rem;
-  }
-
-  h5 {
-    margin-left: 0%;
-    font-size: 1.5rem;
-  }
-
-  .container.contact__container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-
-
-
-
-
-}
-
 
 /*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
 
@@ -217,7 +87,7 @@ textarea {
     position: relative;
     top: -50rem;
     left: -1rem;
-    
+
   }
 
   #contact h5 {
@@ -253,32 +123,641 @@ textarea {
 
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 360px) {}
+
+@media screen and (max-width: 375px) {}
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 390px) {
+
+
   #contact {
-    
-    top: -70rem;
-    
+    position: relative;
+    top: -136rem;
+    left: -1rem;
+  }
+
+  #contact h5 {
+    margin-left: 10%;
+    font-size: 1.5rem;
+  }
+
+  #contact h2 {
+    margin-left: 10%;
+    font-size: 1.9rem;
+  }
+
+  h5 {
+    margin-left: 0%;
+    font-size: 1.5rem;
+  }
+
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+
+
+
+
+}
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 393px) {
+
+
+  #contact {
+    position: relative;
+    top: -140rem;
+    left: -1rem;
+  }
+
+  #contact h5 {
+    margin-left: 10%;
+    font-size: 1.5rem;
+  }
+
+  #contact h2 {
+    margin-left: 10%;
+    font-size: 1.9rem;
+  }
+
+  h5 {
+    margin-left: 0%;
+    font-size: 1.5rem;
+  }
+
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+
+
+
+
+}
+
+@media screen and (max-width: 414px) {}
+
+@media screen and (max-width: 428px) {
+  #contact {
+    position: relative;
+    margin-top: -20rem;
+    left: -1rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  #contact {
+    position: relative;
+    margin-top: -100rem;
+    left: -1rem;
+  }
+}
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (min-width: 768px) {
+
+  #contact {
+    position: relative;
+    top: -95rem;
+    left: -1rem;
+  }
+
+  #contact h5 {
+    margin-left: 10%;
+    font-size: 1.5rem;
+  }
+
+  #contact h2 {
+    margin-left: 10%;
+    font-size: 1.9rem;
+  }
+
+  h5 {
+    margin-left: 0%;
+    font-size: 1.5rem;
+  }
+
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+
+
+}
+
+@media screen and (min-width: 800px) {
+
+  #contact {
+    position: relative;
+    top: -160rem;
+    left: -1rem;
+  }
+
+  #contact h5 {
+    margin-left: 10%;
+    font-size: 1.5rem;
+  }
+
+  #contact h2 {
+    margin-left: 10%;
+    font-size: 1.9rem;
+  }
+
+  h5 {
+    margin-left: 0%;
+    font-size: 1.5rem;
+  }
+
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 820px) {
+
+  #contact {
+    position: relative;
+    top: -120rem;
+    left: -1rem;
+  }
+
+  #contact h5 {
+    margin-left: 10%;
+    font-size: 1.5rem;
+  }
+
+  #contact h2 {
+    margin-left: 10%;
+    font-size: 1.9rem;
+  }
+
+  h5 {
+    margin-left: 0%;
+    font-size: 1.5rem;
+  }
+
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 834px) {
+
+  #contact {
+    position: relative;
+    top: -120rem;
+    left: -1rem;
+  }
+
+  #contact h5 {
+    margin-left: 10%;
+    font-size: 1.5rem;
+  }
+
+  #contact h2 {
+    margin-left: 10%;
+    font-size: 1.9rem;
+  }
+
+  h5 {
+    margin-left: 0%;
+    font-size: 1.5rem;
+  }
+
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 884px) {
+
+  #contact {
+    position: relative;
+    top: -120rem;
+    left: -1rem;
+  }
+
+  #contact h5 {
+    margin-left: 10%;
+    font-size: 1.5rem;
+  }
+
+  #contact h2 {
+    margin-left: 10%;
+    font-size: 1.9rem;
+  }
+
+  h5 {
+    margin-left: 0%;
+    font-size: 1.5rem;
+  }
+
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+
+/*---------Media Queries (Tablets)------------------*/
+
+@media screen and (min-width: 1280px) {
+
+  #contact {
+    position: relative;
+    top: -100rem;
+    left: -3rem;
+  }
+
+  #contact h5 {
+    margin-left: 10%;
+    font-size: 1.5rem;
+  }
+
+  #contact h2 {
+    margin-left: 10%;
+    font-size: 1.9rem;
+  }
+
+  h5 {
+    margin-left: 0%;
+    font-size: 1.5rem;
+  }
+
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
 
 }
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+
+  #contact {
+    position: relative;
+    padding: 0;
+    margin-top: 0rem;
+    top: -40rem;
+
+  }
+
+  #contact h5{
+    
+    font-size: 2.1rem;
+
+  }
+
+  #contact h2{
+    
+    font-size: 1.9rem;
+
+  }
+
+  .container.contact__container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+    position: relative;
+    left: 27%;
+
+  }
+
+  .contact__options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+
+  .contact__option {
+
+    background: linear-gradient(45deg,
+        transparent,
+        var(--color-primary-variant),
+        transparent);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+  }
+
+  .contact__option:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    box-shadow: 0 0 20px #6eebda;
+
+  }
+
+  .contact__option-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+  }
+
+  .contact__option h5 {
+    color: light;
+  }
+
+ 
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white)
+  }
+
+}
+
+@media screen and (min-width: 1728px) {
+
+  #contact {
+    position: relative;
+
+    padding: 0;
+    margin-top: 0rem;
+    top: -120rem;
+
+
+
+
+  }
+
+  .container.contact__container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+    position: relative;
+    left: 27%;
+
+  }
+
+  .contact__options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+
+  .contact__option {
+
+    background: linear-gradient(45deg,
+        transparent,
+        var(--color-primary-variant),
+        transparent);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+  }
+
+  .contact__option:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    box-shadow: 0 0 20px #6eebda;
+
+  }
+
+  .contact__option-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+  }
+
+  .contact__option h5 {
+    color: light;
+  }
+
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white)
+  }
+}
+
+
 
 @media screen and (min-width: 1920px) {
- 
   #contact {
-    
-    top: -25rem;
-    
-    
+    position: relative;
+
+    padding: 0;
+    margin-top: 0rem;
+    top: -83rem;
+
+
+
+
+  }
+
+  .container.contact__container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+    position: relative;
+    left: 27%;
+
+  }
+
+  .contact__options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+
+  .contact__option {
+
+    background: linear-gradient(45deg,
+        transparent,
+        var(--color-primary-variant),
+        transparent);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+  }
+
+  .contact__option:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    box-shadow: 0 0 20px #6eebda;
+
+  }
+
+  .contact__option-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+  }
+
+  .contact__option h5 {
+    color: light;
+  }
+
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white)
   }
 }
+
 
 @media screen and (min-width: 2048px) {
 
   #contact {
-    margin-bottom: 20px;
     position: relative;
-    top: -120rem;
-    left: 0;
-    
+
+    padding: 0;
+    margin-top: 0rem;
+    top: -107rem;
+
+
+
+
+  }
+
+  .container.contact__container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+    position: relative;
+    left: 27%;
+
+  }
+
+  .contact__options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+
+  .contact__option {
+
+    background: linear-gradient(45deg,
+        transparent,
+        var(--color-primary-variant),
+        transparent);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+  }
+
+  .contact__option:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    box-shadow: 0 0 20px #6eebda;
+
+  }
+
+  .contact__option-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+  }
+
+  .contact__option h5 {
+    color: light;
+  }
+
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white)
   }
 }

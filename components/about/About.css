@@ -140,140 +140,16 @@
 
 /* css cube */
 
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
 
-
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 320px) {
   #about {
-
-    top: -90rem;
-    height: 25vh;
-
-
-  }
-
-  .cube {
-    
-    top: 20rem;
-  }
-}
-
-@media screen and (max-width: 1728px) {
-  #about {
-    height: 100vh;
+    height: 250vh;
     width: 100vw;
     overflow: hidden;
-    position: relative;
-    top: -100rem;
-    left: 0rem;
-
-  }
-}
-
-@media screen and (max-width: 1440px) {
-  #about {
-    height: 140vh;
-    top: -80rem;
-
-
-  }
-}
-
-
-/*---------Media Queries (Tablets)------------------*/
-
-@media screen and (max-width: 1024px) {
-  #about {
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    position: relative;
-    top: -89rem;
-    left: 0rem;
-
-  }
-
-  #about h5 {
-
-    margin-left: 0rem;
-    font-size: 1.9rem;
-  }
-
-  #about h2 {
-
-    margin-left: 0rem;
-    font-size: 2.4rem;
-  }
-
-  .about__card h5 {
-    font-size: 1.7rem;
-  }
-
-  .about__container {
-    width: 100vw;
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-
-  .about__content {
-    width: 100vw;
     position: relative;
     top: -45rem;
-    margin-left: 0rem;
-  }
-
-  .about__cards {
     left: 0rem;
-  }
-
-
-  .wrap {
-    margin-left: 0rem;
-
-  }
-
-
-  .cube {
-    transform-style: preserve-3d;
-    width: 22vw;
-    height: 10vh;
-    position: absolute;
-    margin-left: 43%;
-    top: 28rem;
-  }
-
-}
-
-@media screen and (max-width: 884px) {
-
-  .cube {
-
-    margin-top: -8rem;
-  }
-
-
-}
-
-@media screen and (max-width: 768px) {
-
-  .cube {
-
-    top: 25rem;
-  }
-
-
-}
-
-/*--------- Responsive design  (iPhone devices) ----------------*/
-
-@media screen and (max-width: 600px) {
-  #about {
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    position: relative;
-    top: -30rem;
-    left: 0rem;
-
 
   }
 
@@ -311,9 +187,8 @@
   }
 
   .about__cards {
-    gap: 0%;
-    margin-left: 1%;
-
+    margin-top: 20px;
+    grid-template-columns: 1fr;
   }
 
 
@@ -324,23 +199,22 @@
 
 
   .cube {
-    margin-left: 33%;
-    width: 42vw;
-    top: 7rem;
+    transform-style: preserve-3d;
+    width: 68vw;
+    height: 10vh;
+    position: absolute;
+    margin-left: 20%;
+    top: 34rem;
   }
 
 
 }
 
-/*--------- Responsive design  (iPhone devices) ----------------*/
+@media screen and (max-width: 360px) {}
 
-@media screen and (max-width: 428px) {
-  .about__cards {
-    gap: 0%;
-    margin-right: 0%;
+@media screen and (max-width: 375px) {}
 
-  }
-}
+@media screen and (max-width: 390px) {}
 
 /*--------- Responsive design  (iPhone devices) ----------------*/
 
@@ -412,91 +286,432 @@
 
 }
 
-/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+@media screen and (max-width: 414px) {}
 
-@media screen and (max-width: 320px) {
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 428px) {
+  .about__cards {
+    gap: 0%;
+    margin-right: 0%;
+
+  }
+}
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 430px) {
   #about {
     height: 250vh;
     width: 100vw;
     overflow: hidden;
     position: relative;
-    top: -45rem;
+    top: -70rem;
     left: 0rem;
+
+  }
+
+  .cube {
+
+    top: 30rem;
+  }
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+  
+  #about {
+    height: 160vh;
+    top: -80rem;
+
 
   }
 
   #about h5 {
-    position: relative;
+    font-size: 1.5rem;
     margin-left: 0rem;
-    font-size: 0.9rem;
-    top: 0rem;
-    left: 0rem;
+  
+  
   }
 
   #about h2 {
-    position: relative;
-    margin-left: 0rem;
     font-size: 1.9rem;
-    top: 0rem;
-    left: 0rem;
-  }
-
-  .about__card h5 {
-    font-size: 1.7rem;
-  }
-
-  .about__container {
-    width: 100vw;
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-
-  .about__content {
-    width: 100%;
-    position: relative;
-    top: -31rem;
-    margin-left: 0rem;
+  
+  
   }
 
   .about__cards {
-    margin-top: 20px;
-    grid-template-columns: 1fr;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    margin-left: -3.5rem;
+    margin-top: 4rem;
+    gap: 1.5rem;
+    width: 75vw;
+    height: 20vh;
+
   }
-
-
-  .wrap {
-    margin-left: 0rem;
-
-  }
-
 
   .cube {
-    transform-style: preserve-3d;
-    width: 68vw;
-    height: 10vh;
-    position: absolute;
-    margin-left: 20%;
-    top: 34rem;
+
+    top: 25rem;
+    margin-left: 150%;
+    width: 19vw;
   }
 
 
 }
 
-@media screen and (min-width: 2048px) {
+@media screen and (min-width: 800px) {
 
   #about {
-    height: 250vh;
-    width: 100vw;
-    overflow: hidden;
+    height: 160vh;
+    top: -110rem;
+
+
+  }
+
+  #about h5 {
+    font-size: 1.5rem;
+    margin-left: 0rem;
+  
+  
+  }
+
+  #about h2 {
+    font-size: 1.9rem;
+  
+  
+  }
+
+  .about__cards {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     position: relative;
-    top: -100rem;
-    left: 0rem;
+    margin-left: -3.5rem;
+    margin-top: 4rem;
+    gap: 1.5rem;
+    width: 75vw;
+    height: 20vh;
 
   }
 
   .cube {
-    
-    top: 24rem;
+
+    top: 25rem;
+    margin-left: 150%;
+    width: 19vw;
+  }
+}
+
+@media screen and (min-width: 820px) {
+
+  #about {
+    height: 160vh;
+    top: -95rem;
+
+
+  }
+
+  #about h5 {
+    font-size: 1.5rem;
+    margin-left: 0rem;
+  
+  
+  }
+
+  #about h2 {
+    font-size: 1.9rem;
+  
+  
+  }
+
+  .about__cards {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    margin-left: -3.5rem;
+    margin-top: 4rem;
+    gap: 1.5rem;
+    width: 75vw;
+    height: 20vh;
+
+  }
+
+  .cube {
+
+    top: 25rem;
+    margin-left: 150%;
+    width: 19vw;
+  }
+}
+
+@media screen and (min-width: 834px) {
+
+  #about {
+    height: 160vh;
+    top: -100rem;
+
+
+  }
+
+  #about h5 {
+    font-size: 1.5rem;
+    margin-left: 0rem;
+  
+  
+  }
+
+  #about h2 {
+    font-size: 1.9rem;
+  
+  
+  }
+
+  .about__cards {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    margin-left: -3rem;
+    margin-top: 4rem;
+    gap: 1.5rem;
+    width: 75vw;
+    height: 20vh;
+
+  }
+
+  .cube {
+
+    top: 25rem;
+    margin-left: 150%;
+    width: 19vw;
+  }
+}
+
+@media screen and (min-width: 884px) {
+
+  #about {
+    height: 160vh;
+    top: -90rem;
+
+
+  }
+
+  #about h5 {
+    font-size: 1.5rem;
+    margin-left: 0rem;
+  
+  
+  }
+
+  #about h2 {
+    font-size: 1.9rem;
+  
+  
+  }
+
+  .about__cards {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    margin-left: -6rem;
+    margin-top: 4rem;
+    gap: 1.5rem;
+    width: 75vw;
+    height: 20vh;
+
+  }
+
+  .cube {
+
+    top: 25rem;
+    margin-left: 150%;
+    width: 19vw;
+  }
+
+}
+
+/*---------Media Queries (Tablets)------------------*/
+
+@media screen and (min-width: 1280px) {
+  #about {
+    height: 160vh;
+    top: -80rem;
+
+
+  }
+
+  #about h5 {
+    font-size: 2.0rem;
+  
+  
+  }
+
+  #about h2 {
+    font-size: 1.9rem;
+  
+  
+  }
+
+  .about__cards {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    margin-left: -7rem;
+    margin-top: 4rem;
+    gap: 1.5rem;
+    width: 75vw;
+    height: 20vh;
+
+  }
+
+  .cube {
+
+    top: 25rem;
+    margin-left: 150%;
+    width: 15vw;
+  }
+
+}
+
+
+@media screen and (min-width: 1440px) {
+  #about {
+    height: 160vh;
+    top: -53rem;
+
+
+  }
+
+  #about h5 {
+    font-size: 2.1rem;
+  
+  
+  }
+
+  #about h2 {
+    font-size: 1.9rem;
+  
+  
+  }
+
+  .about__cards {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    margin-left: -7rem;
+    margin-top: 8rem;
+    gap: 1.5rem;
+    width: 75vw;
+    height: 20vh;
+
+  }
+
+  .cube {
+
+    top: 35rem;
+    margin-left: 35rem;
+    width: 15vw;
+  }
+}
+  
+
+@media screen and (min-width: 1728px) {
+  #about {
+    height: 160vh;
+    top: -100rem;
+
+
+  }
+
+  .about__cards {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    margin-left: -10rem;
+    margin-top: 8rem;
+    gap: 1.5rem;
+    width: 75vw;
+    height: 20vh;
+
+  }
+
+  .cube {
+
+    top: 35rem;
+    margin-left: 45rem;
+    width: 11vw;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  #about {
+    height: 160vh;
+    top: -80rem;
+
+
+  }
+
+  .about__cards {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    margin-left: -10rem;
+    margin-top: 8rem;
+    gap: 1.5rem;
+    width: 75vw;
+    height: 20vh;
+
+  }
+
+  .cube {
+
+    top: 35rem;
+    margin-left: 50rem;
+    width: 11vw;
+  }
+ 
+} 
+
+@media screen and (min-width: 2048px) {
+
+  #about {
+    height: 160vh;
+    top: -80rem;
+
+
+  }
+
+  .about__cards {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    margin-left: -10rem;
+    margin-top: 8rem;
+    gap: 1.5rem;
+    width: 75vw;
+    height: 20vh;
+
+  }
+
+  .cube {
+
+    top: 35rem;
+    margin-left: 50rem;
+    width: 11vw;
   }
 
 }

@@ -89,138 +89,36 @@ header {
   font-size: 1.2rem;
 }
 
-/*---------Media Queries (Tablets)------------------*/
 
-@media screen and (max-width: 1024px) {
+
+
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 320px) {
   header {
-    height: 118vh;
-    top: -130rem;
-  
-    
+    top: -37rem;
+    height: 158vh;
   }
 
   .header__container {
 
-    top: 2rem;
+    top: 9rem;
   }
 
 
-  .Me {
-    background: transparent;
-    width: 42%;
-    height: 35vh;
-    position: absolute;
-    left: calc(53% - 14rem);
-    top: 16rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 0rem 0.5rem 4.5rem;
-    display: block;
-  }
+  .cta {
 
-
-  .Me img {
-
-    left: 2.8rem;
-  }
-
-  .header__container {
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    position: relative;
-    margin-top: 20rem;
-    padding: 0;
-    display: block;
+    display: none;
 
   }
 
-  .header__container h1 {
-    margin-left: 0rem;
-    color: #4db5ff;
-  }
-
-}
-
-
-/*--------- Responsive design  (iPhone devices) ----------------*/
-
-@media screen and (max-width: 600px) {
-  header {
-    top: -42rem;
-    height: 128vh;
-  }
-
-  .header__container {
-
-    top: 2rem;
-  }
-
-
-  .Me {
-
-    width: 42%;
-    height: 32vh;
-    left: calc(80% - 14rem);
-    margin-top: 70%;
+  .header__socials {
+    display: none;
 
   }
 
-
-  .Me img {
-
-    left: 0.7rem;
-    width: 90%;
-  }
-
-  .header__container {
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    position: relative;
-    margin-top: 20rem;
-    padding: 0;
-    display: block;
-
-  }
-
-  .header__container h1 {
-    margin-left: 0rem;
-    color: #4db5ff;
-  }
-
-
-}
-
-
-
-/*--------- Responsive design  (iPhone devices) ----------------*/
-
-@media screen and (max-width: 414px) {
-
-  .Me {
-
-    width: 42%;
-    height: 32vh;
-    left: calc(85% - 14rem);
-    margin-top: 70%;
-
-  }
-
-}
-
-/*--------- Responsive design  (iPhone devices) ----------------*/
-
-@media screen and (max-width: 393px) {
-
-  header {
-    top: -42rem;
-    height: 148vh;
-  }
-
-  .header__container {
-
-    top: 5rem;
+  .scroll__down {
+    display: none;
   }
 
   .Me {
@@ -239,26 +137,9 @@ header {
     width: 90%;
   }
 
-
-
 }
 
-/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
 
-@media screen and (max-width: 375px) {
-
-  header {
-    top: -42rem;
-    height: 158vh;
-  }
-
-  .header__container {
-
-    top: 6.5rem;
-  }
-
-
-}
 
 
 /*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
@@ -310,38 +191,18 @@ header {
 
 }
 
-
-
-
-
-
 /*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
+
   header {
-    top: -37rem;
-    height: 158vh;
+    top: -85.7rem;
+    height: 148vh;
   }
 
   .header__container {
 
-    top: 9rem;
-  }
-
-
-  .cta {
-
-    display: none;
-
-  }
-
-  .header__socials {
-    display: none;
-
-  }
-
-  .scroll__down {
-    display: none;
+    top: 5rem;
   }
 
   .Me {
@@ -349,7 +210,7 @@ header {
     width: 42%;
     height: 35vh;
     left: calc(87% - 14rem);
-    margin-top: 70%;
+    margin-top: 25%;
 
   }
 
@@ -360,36 +221,201 @@ header {
     width: 90%;
   }
 
+  /* ------------ CTA ----------*/
+  .cta {
+    margin-top: 0%;
+    display: flex;
+    gap: 0.9rem;
+    justify-content: center;
+    width: 20vw;
+    height: 9vh;
+    margin-left: 40%;
+  }
+
+  .cta a {
+    font-size: 0.8rem;
+    padding: auto;
+  }
+
+  .header__container h1 {
+    font-size: 1.5rem;
+  }
+
+
+}
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 390px) {
+
+  header {
+    top: -85rem;
+    height: 148vh;
+  }
+
+  .header__container {
+
+    top: 5rem;
+  }
+
+  .Me {
+
+    width: 42%;
+    height: 35vh;
+    left: calc(87% - 14rem);
+    margin-top: 25%;
+
+  }
+
+
+  .Me img {
+
+    left: 0.7rem;
+    width: 90%;
+  }
+
+  /* ------------ CTA ----------*/
+  .cta {
+    margin-top: 0%;
+    display: flex;
+    gap: 0.9rem;
+    justify-content: center;
+    width: 20vw;
+    height: 9vh;
+    margin-left: 40%;
+  }
+
+  .cta a {
+    font-size: 0.8rem;
+    padding: auto;
+  }
+
+  .header__container h1 {
+    font-size: 1.5rem;
+  }
+
+
+
+}
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 393px) {
+
+  header {
+    top: -85.5rem;
+    height: 148vh;
+  }
+
+  .header__container {
+
+    top: 5rem;
+  }
+
+  .Me {
+
+    width: 42%;
+    height: 35vh;
+    left: calc(87% - 14rem);
+    margin-top: 25%;
+
+  }
+
+
+  .Me img {
+
+    left: 0.7rem;
+    width: 90%;
+  }
+
+  /* ------------ CTA ----------*/
+  .cta {
+    margin-top: 0%;
+    display: flex;
+    gap: 0.9rem;
+    justify-content: center;
+    width: 20vw;
+    height: 9vh;
+    margin-left: 40%;
+  }
+
+  .cta a {
+    font-size: 0.8rem;
+    padding: auto;
+  }
+
+  .header__container h1 {
+    font-size: 1.5rem;
+  }
+
+
+
+}
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 414px) {}
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 428px) {
+  header {
+    top: -94rem;
+    height: 138vh;
+  }
+
+  .Me {
+
+    height: 30vh;
+    left: calc(80% - 14rem);
+    top: 22rem;
+
+  }
+
 }
 
 /*--------- Responsive design  (iPhone devices) ----------------*/
 
 @media screen and (max-width: 430px) {
   header {
-    top: -103rem;
+    top: -95rem;
     height: 138vh;
   }
- 
-}
-
-@media screen and (min-width: 768px) {
-  header {
-    top: -95rem;
-    height: 150vh;
-  }
-
-  .header__container {
-
-    top: 8rem;
-  }
-
 
   .Me {
 
-    height: 39vh;
-    left: calc(60% - 14rem);
-    top: 17rem;
+    height: 30vh;
+    left: calc(80% - 14rem);
+    top: 22rem;
 
+  }
+
+}
+
+
+
+@media screen and (min-width: 768px) {
+  header {
+    top: -85rem;
+    height: 138vh;
+  }
+
+  .header__container h1 {
+    margin-left: 0rem;
+  }
+
+  .Me {
+
+    height: 27vh;
+    left: calc(70% - 14rem);
+    top: 26rem;
+
+  }
+
+  .Me img {
+
+    left: 0.7rem;
+    width: 90%;
   }
 
 }
@@ -400,148 +426,112 @@ header {
     height: 138vh;
   }
 
+  .header__container h1 {
+    margin-left: 0rem;
+  }
+
   .Me {
-    
-    height: 39vh;
-    left: calc(60% - 14rem);
-    top: 34rem;
-    
-}
+
+    height: 24vh;
+    left: calc(68% - 14rem);
+    top: 44rem;
+
+  }
+
+  .Me img {
+
+    left: 0.7rem;
+    width: 90%;
+  }
 
 }
 
 @media screen and (min-width: 820px) {
   header {
-    top: -105rem;
+    top: -100rem;
     height: 138vh;
   }
 
+  .header__container h1 {
+    margin-left: 0rem;
+  }
+
   .Me {
-    
-    height: 35vh;
-    left: calc(60% - 14rem);
-    top: 34rem;
-    
-}
+
+    height: 27vh;
+    left: calc(68% - 14rem);
+    top: 28rem;
+
+  }
+
+  .Me img {
+
+    left: 0.7rem;
+    width: 90%;
+  }
 
 }
 
 @media screen and (min-width: 834px) {
 
   header {
-    top: -105rem;
+    top: -100rem;
     height: 138vh;
   }
 
+  .header__container h1 {
+    margin-left: 0rem;
+  }
+
   .Me {
-    
-    height: 40vh;
-    left: calc(60% - 14rem);
+
+    height: 27vh;
+    left: calc(65% - 14rem);
     top: 24rem;
-    
-}
+
+  }
+
+  .Me img {
+
+    left: 0.7rem;
+    width: 90%;
+  }
 }
 
 @media screen and (min-width: 884px) {
   header {
-    top: -104rem;
+    top: -98rem;
     height: 138vh;
   }
 
+  .header__container h1 {
+    margin-left: 0rem;
+  }
+
   .Me {
-    
-    height: 40vh;
-    left: calc(55% - 14rem);
-    top: 22rem;
-   
+
+    height: 27vh;
+    left: calc(65% - 14rem);
+    top: 34rem;
+
+  }
+
+  .Me img {
+
+    left: 0.7rem;
+    width: 90%;
   }
 
 }
+
+
 
 @media screen and (min-width: 1280px) {
 
 
   header {
-   
-    top: -80rem;
-
-  }
-
-  .Me {
-
-    margin-top: 14rem;
-    height: 45vh;
-    left: calc(56% - 14rem);
-
-  }
-
-  .Me img {
-
-    width: 70%;
-    position: relative;
-    left: 3rem;
-    top: 2rem;
-  
-  }
-}
-
-
-@media screen and (min-width: 1440px) {
-
-  header {
-   
-    top: -86rem;
-
-  }
-
-  .header__container {
-
-    top: 8rem;
-  }
-
-  .Me {
-
-    margin-top: 14rem;
-    height: 50vh;
-    left: calc(56% - 14rem);
-
-  }
-}
-
-
-
-
-
-@media screen and (min-width: 1728px) {
-
-  header {
-    
-    top: -105rem;
-  }
-
-  .Me {
-
-    margin-top: 26rem;
-    height: 45vh;
-    left: calc(52% - 14rem);
-
-  }
-
-  .Me img {
-
-    width: 70%;
-    position: relative;
-    left: 3rem;
-    top: 2rem;
-  
-  }
-}
-
-@media screen and (min-width: 1920px) {
-
-  header {
     height: 160vh;
-    top: -98rem;
+    top: -77rem;
 
   }
 
@@ -553,7 +543,8 @@ header {
   .Me {
 
     top: 12rem;
-    height: 55vh;
+    height: 45vh;
+    left: calc(57% - 14rem);
 
   }
 
@@ -563,14 +554,112 @@ header {
     position: relative;
     left: 3rem;
     top: 2rem;
-  
+
+  }
+}
+
+
+@media screen and (min-width: 1440px) {
+
+  header {
+    height: 160vh;
+    top: -63rem;
+
+  }
+
+  .header__container {
+
+    top: 0rem;
+  }
+
+  .Me {
+
+    top: 12rem;
+    height: 45vh;
+    left: calc(55% - 14rem);
+
+  }
+
+  .Me img {
+
+    width: 70%;
+    position: relative;
+    left: 3rem;
+    top: 2rem;
+
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 1728px) {
+
+  header {
+    height: 160vh;
+    top: -95rem;
+
+  }
+
+  .header__container {
+
+    top: 0rem;
+  }
+
+  .Me {
+
+    top: 12rem;
+    height: 42vh;
+    left: calc(53% - 14rem);
+
+  }
+
+  .Me img {
+
+    width: 70%;
+    position: relative;
+    left: 3rem;
+    top: 2rem;
+
+  }
+}
+
+@media screen and (min-width: 1920px) {
+
+  header {
+    height: 160vh;
+    top: -86rem;
+
+  }
+
+  .header__container {
+
+    top: 0rem;
+  }
+
+  .Me {
+
+    top: 12rem;
+    height: 48vh;
+    left: calc(53% - 14rem);
+
+  }
+
+  .Me img {
+
+    width: 70%;
+    position: relative;
+    left: 3rem;
+    top: 2rem;
+
   }
 }
 
 @media screen and (min-width: 2048px) {
 
   header {
-    top: -110rem;
+    top: -100rem;
     height: 140vh;
 
   }
@@ -582,8 +671,9 @@ header {
 
   .Me {
 
-    top: 16rem;
+    top: 8rem;
     height: 45vh;
+    left: calc(52% - 14rem);
 
   }
 

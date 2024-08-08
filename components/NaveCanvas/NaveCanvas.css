@@ -9,56 +9,28 @@
 
 
 
-/*---------Media Queries (large and medium devices)------------------*/
-@media screen and (min-width: 1920px) {
+@media screen and (max-width: 320px) {}
 
-    /* Avatar css --> Red Astrounaut */
+@media screen and (max-width: 360px) {}
 
-    #canvasContainerAvatar {
-        width: 100vw;
-        height: 100vh;
-        position: relative;
-        top: 5rem;
-    }
+@media screen and (max-width: 375px) {}
 
-}
+@media screen and (max-width: 390px) {}
 
-/*---------Media Queries (large and medium devices)------------------*/
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 393px) {}
 
-    /* Avatar css --> Red Astrounaut */
+@media screen and (max-width: 414px) {}
 
-    #canvasContainerAvatar {
-        width: 100vw;
-        height: 100vh;
-        position: relative;
-        top: -6rem;
-    }
+@media screen and (max-width: 428px) {}
 
-}
+@media screen and (max-width: 430px) {}
 
 
-/*---------Media Queries (medium devices - Tablets)------------------*/
-
-@media screen and (max-width: 1024px) {
-
-    /* Avatar css --> Red Astrounaut */
-
-    #canvasContainerAvatar {
-        width: 100vw;
-        height: 50vh;
-        position: relative;
-        top: 20rem;
-        left: 0rem;
-    }
-
-
-}
 
 
 /*---------Small Queries (Small devices)------------------*/
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 768px) {
 
     /* Avatar css --> Red Astrounaut */
 
@@ -67,18 +39,117 @@
         height: 25vh;
         position: relative;
         top: 5rem;
-        left: 2rem;
+        left: 0rem;
 
     }
 
 
 }
 
+@media screen and (min-width: 800px) {
+
+    #canvasContainerAvatar {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        top: 0rem;
+    }
+}
+
+@media screen and (min-width: 820px) {
+
+    #canvasContainerAvatar {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        top: 0rem;
+    }
+}
+
+@media screen and (min-width: 834px) {
+
+    #canvasContainerAvatar {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        top: 0rem;
+    }
+}
+
+@media screen and (min-width: 884px) {
+
+    #canvasContainerAvatar {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        top: 8rem;
+    }
+}
+
+
+/*---------Media Queries (medium devices - Tablets)------------------*/
+
+@media screen and (min-width: 1280px) {
+
+    
+
+    #canvasContainerAvatar {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        top: 6rem;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    #canvasContainerAvatar {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        top: 24rem;
+    }
+
+}
+
+
+@media screen and (min-width: 1728px) {
+
+    
+
+    #canvasContainerAvatar {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        top: 12rem;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1920px) {
+
+   
+
+    #canvasContainerAvatar {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        top: 14rem;
+    }
+
+} 
+
+
 @media screen and (min-width: 2048px) {
     #canvasContainerAvatar {
         width: 100vw;
         height: 100vh;
         position: relative;
-        top: 5rem;
+        top: 12rem;
     }
-} 
+}
