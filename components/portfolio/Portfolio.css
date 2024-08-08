@@ -120,14 +120,14 @@
 
 @media screen and (max-width: 428px) {}
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 430px) {
    #portfolio {
 
       height: 454vh;
       width: 100%;
       overflow-x: hidden;
       position: relative;
-      top: -123rem;
+      top: -80rem;
       margin-left: 0rem;
    }
 
@@ -135,7 +135,7 @@
       height: 360vh;
       width: 100%;
       grid-template-columns: 1fr;
-      gap: 6rem;
+      gap: 4rem;
       margin-left: 0rem;
    }
 }

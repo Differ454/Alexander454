@@ -175,10 +175,41 @@
 @media screen and (max-width: 428px) {}
 
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 430px) {
   #experience {
 
-    top: -140rem;
+    top: -90rem;
+  }
+
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
+
+  #experience h1 {
+
+    margin-left: 0rem;
+    font-size: 1.4rem;
+
+
+  }
+
+  #experience h2 {
+    margin-left: 0rem;
+    font-size: 1.7rem;
+  }
+
+
+  .experience__container>div {
+    width: 90%;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-left: 2.2rem;
+  }
+
+  .experience__content {
+    /* padding: 1rem; */
+    padding-left: 2rem;
+    font-size: 0.8rem;
   }
 }
 

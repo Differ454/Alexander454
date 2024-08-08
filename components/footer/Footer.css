@@ -129,14 +129,28 @@ footer a {
 
 /*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 430px) {
 
     #footer {
         width: 100vw;
         position: relative;
-        margin-top: -60rem;
+        margin-top: -140rem;
         left: 0rem;
 
+    }
+
+    footer a {
+        color: rgb(135, 182, 164);
+        font-size: 1.4rem;
+    
+    }
+
+    .permalinks {
+        display:grid;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin: 0 auto 3rem;
     }
 
 }

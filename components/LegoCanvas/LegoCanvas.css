@@ -80,10 +80,10 @@
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 430px) {
     #canvasContainerLego {
 
-        top: -1rem;
+        top: 1rem;
         left: -1rem;
 
 

@@ -211,11 +211,31 @@ textarea {
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 430px) {
   #contact {
     position: relative;
-    margin-top: -100rem;
+    top: -110rem;
     left: -1rem;
+  }
+
+  #contact h5 {
+    margin-left: 10%;
+    font-size: 1.5rem;
+  }
+
+  #contact h2 {
+    margin-left: 10%;
+    font-size: 1.2rem;
+  }
+
+  h5 {
+    margin-left: 0%;
+    font-size: 1.5rem;
+  }
+
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
 }
 

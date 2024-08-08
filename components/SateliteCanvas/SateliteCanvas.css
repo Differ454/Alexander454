@@ -65,7 +65,7 @@
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 430px) {
     #canvasContainerSatelite {
 
         margin-top: -65rem;

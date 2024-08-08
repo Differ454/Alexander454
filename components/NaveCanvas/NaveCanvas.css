@@ -23,7 +23,17 @@
 
 @media screen and (max-width: 428px) {}
 
-@media screen and (max-width: 430px) {}
+@media screen and (min-width: 430px) {
+
+    #canvasContainerAvatar {
+        width: 80vw;
+        height: 25vh;
+        position: relative;
+        top: 7rem;
+        left: 0rem;
+
+    }
+}
 
 
 

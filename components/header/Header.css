@@ -376,18 +376,30 @@ header {
 
 /*--------- Responsive design  (iPhone devices) ----------------*/
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 430px) {
   header {
-    top: -95rem;
+    top: -70rem;
     height: 138vh;
+  }
+
+  .header__container h1 {
+    margin-left: 0rem;
+    color: #009fc7;
   }
 
   .Me {
 
-    height: 30vh;
+    height: 35vh;
+    width: 42%;
     left: calc(80% - 14rem);
     top: 22rem;
 
+  }
+
+  .Me img {
+
+    left: 0.7rem;
+    width: 90%;
   }
 
 }
