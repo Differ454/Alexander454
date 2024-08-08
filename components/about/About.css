@@ -140,168 +140,15 @@
 
 /* css cube */
 
-/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
-
-@media screen and (max-width: 320px) {
-  #about {
-    height: 250vh;
-    width: 100vw;
-    overflow: hidden;
-    position: relative;
-    top: -45rem;
-    left: 0rem;
-
-  }
-
-  #about h5 {
-    position: relative;
-    margin-left: 0rem;
-    font-size: 0.9rem;
-    top: 0rem;
-    left: 0rem;
-  }
-
-  #about h2 {
-    position: relative;
-    margin-left: 0rem;
-    font-size: 1.9rem;
-    top: 0rem;
-    left: 0rem;
-  }
-
-  .about__card h5 {
-    font-size: 1.7rem;
-  }
-
-  .about__container {
-    width: 100vw;
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-
-  .about__content {
-    width: 100%;
-    position: relative;
-    top: -31rem;
-    margin-left: 0rem;
-  }
-
-  .about__cards {
-    margin-top: 20px;
-    grid-template-columns: 1fr;
-  }
-
-
-  .wrap {
-    margin-left: 0rem;
-
-  }
-
-
-  .cube {
-    transform-style: preserve-3d;
-    width: 68vw;
-    height: 10vh;
-    position: absolute;
-    margin-left: 20%;
-    top: 34rem;
-  }
-
-
-}
-
-@media screen and (max-width: 360px) {}
-
-@media screen and (max-width: 375px) {}
-
-@media screen and (max-width: 390px) {}
-
-/*--------- Responsive design  (iPhone devices) ----------------*/
-
-@media screen and (max-width: 393px) {
-
-  #about {
-    height: 160vh;
-    width: 100vw;
-    overflow: hidden;
-    position: relative;
-    top: -30rem;
-    left: 0rem;
-
-  }
-
-  #about h5 {
-    position: relative;
-    margin-left: 0rem;
-    font-size: 0.9rem;
-    top: 0rem;
-    left: 0rem;
-  }
-
-  #about h2 {
-    position: relative;
-    margin-left: 0rem;
-    font-size: 1.9rem;
-    top: 0rem;
-    left: 0rem;
-  }
-
-  .about__card h5 {
-    font-size: 1.7rem;
-  }
-
-  .about__container {
-    width: 100vw;
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-
-  .about__content {
-    width: 100%;
-    position: relative;
-    top: -31rem;
-    margin-left: 0rem;
-  }
-
-  .about__cards {
-
-    left: 0rem;
-    grid-template-columns: 1fr;
-  }
-
-
-  .wrap {
-    margin-left: 0rem;
-
-  }
-
-
-  .cube {
-    margin-left: 33%;
-    width: 42vw;
-    top: 30rem;
-  }
 
 
 
-}
 
-@media screen and (max-width: 414px) {}
 
 
 /*--------- Responsive design  (iPhone devices) ----------------*/
 
-@media screen and (max-width: 428px) {
-  .about__cards {
-    gap: 0%;
-    margin-right: 0%;
-
-  }
-}
-
-/*--------- Responsive design  (iPhone devices) ----------------*/
-
-@media screen and (min-width: 430px) {
+@media screen and (max-width: 430px) {
   #about {
     height: 160vh;
     width: 100vw;
@@ -363,6 +210,147 @@
     width: 42vw;
     top: 30rem;
   }
+}
+
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 393px) {
+
+  #about {
+    height: 160vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    top: -60rem;
+    left: 0rem;
+
+  }
+
+  #about h5 {
+    position: relative;
+    margin-left: 0rem;
+    font-size: 0.9rem;
+    top: 0rem;
+    left: 0rem;
+  }
+
+  #about h2 {
+    position: relative;
+    margin-left: 0rem;
+    font-size: 1.9rem;
+    top: 0rem;
+    left: 0rem;
+  }
+
+  .about__card h5 {
+    font-size: 1.7rem;
+  }
+
+  .about__container {
+    width: 100vw;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about__content {
+    width: 100%;
+    position: relative;
+    top: -31rem;
+    margin-left: 0rem;
+  }
+
+  .about__cards {
+
+    left: 0rem;
+    grid-template-columns: 1fr;
+  }
+
+
+  .wrap {
+    margin-left: 0rem;
+
+  }
+
+
+  .cube {
+    margin-left: 33%;
+    width: 42vw;
+    top: 30rem;
+  }
+
+
+
+}
+
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 320px) {
+  #about {
+    height: 250vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    top: -45rem;
+    left: 0rem;
+
+  }
+
+  #about h5 {
+    position: relative;
+    margin-left: 0rem;
+    font-size: 0.9rem;
+    top: 0rem;
+    left: 0rem;
+  }
+
+  #about h2 {
+    position: relative;
+    margin-left: 0rem;
+    font-size: 1.9rem;
+    top: 0rem;
+    left: 0rem;
+  }
+
+  .about__card h5 {
+    font-size: 1.7rem;
+  }
+
+  .about__container {
+    width: 100vw;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about__content {
+    width: 100%;
+    position: relative;
+    top: -31rem;
+    margin-left: 0rem;
+  }
+
+  .about__cards {
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+  }
+
+
+  .wrap {
+    margin-left: 0rem;
+
+  }
+
+
+  .cube {
+    transform-style: preserve-3d;
+    width: 60vw;
+    height: 18vh;
+    position: absolute;
+    margin-left: 20%;
+    top: 34rem;
+  }
+
+
 }
 
 

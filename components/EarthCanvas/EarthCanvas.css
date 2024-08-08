@@ -13,28 +13,26 @@
 
 
 
+@media screen and (max-width: 430px) {
 
+    #canvasContainer {
 
+        top: 14rem;
 
-/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+    }
+}
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 393px) {
     /* Earth css --> */
 
     #canvasContainer {
-        width: 100%;
-        height: 100vh;
-        position: absolute;
-        margin-left: 0rem;
-        margin-top: -78%;
-        z-index: 2;
+
+        top: 12rem;
+
+
     }
 
-
 }
-
-@media screen and (max-width: 360px) {}
-
 
 /*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
 
@@ -44,40 +42,26 @@
 
     #canvasContainer {
 
-        margin-top: -80%;
+        top: 10rem;
 
 
     }
 
 }
 
-@media screen and (max-width: 390px) {}
-
 /*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
 
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 320px) {
     /* Earth css --> */
 
     #canvasContainer {
 
-        margin-top: -60%;
+        top: 8rem;
 
 
     }
 
-}
 
-@media screen and (max-width: 414px) {}
-
-@media screen and (max-width: 428px) {}
-
-@media screen and (min-width: 430px) {
-
-    #canvasContainer {
-
-        top: 14rem;
-
-    }
 }
 
 

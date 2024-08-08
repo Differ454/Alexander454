@@ -90,142 +90,25 @@ header {
 }
 
 
+/*--------- Responsive design  (iPhone devices) ----------------*/
 
-
-/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 430px) {
   header {
-    top: -37rem;
-    height: 158vh;
+    top: -69rem;
+    height: 138vh;
   }
 
-  .header__container {
-
-    top: 9rem;
+  .header__container h1 {
+    margin-left: 0rem;
+    color: #009fc7;
   }
-
-
-  .cta {
-
-    display: none;
-
-  }
-
-  .header__socials {
-    display: none;
-
-  }
-
-  .scroll__down {
-    display: none;
-  }
-
-  .Me {
-
-    width: 42%;
-    height: 35vh;
-    left: calc(87% - 14rem);
-    margin-top: 70%;
-
-  }
-
-
-  .Me img {
-
-    left: 0.7rem;
-    width: 90%;
-  }
-
-}
-
-
-
-
-/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
-
-@media screen and (max-width: 360px) {
-
-  header {
-    top: -41rem;
-    height: 158vh;
-  }
-
-  .header__container {
-
-    top: 7rem;
-  }
+  
 
   /* ------------ CTA ----------*/
   .cta {
     margin-top: 0%;
     display: flex;
-    gap: 0.9rem;
-    justify-content: center;
-    width: 20vw;
-    height: 9vh;
-    margin-left: 40%;
-  }
-
-  .cta a {
-    font-size: 0.8rem;
-    padding: auto;
-  }
-
-  .Me {
-
-    width: 42%;
-    height: 35vh;
-    left: calc(90% - 14rem);
-    margin-top: 70%;
-
-  }
-
-
-  .Me img {
-
-    left: 0.7rem;
-    width: 90%;
-  }
-
-
-}
-
-/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
-
-@media screen and (max-width: 375px) {
-
-  header {
-    top: -85.7rem;
-    height: 148vh;
-  }
-
-  .header__container {
-
-    top: 5rem;
-  }
-
-  .Me {
-
-    width: 42%;
-    height: 35vh;
-    left: calc(87% - 14rem);
-    margin-top: 25%;
-
-  }
-
-
-  .Me img {
-
-    left: 0.7rem;
-    width: 90%;
-  }
-
-  /* ------------ CTA ----------*/
-  .cta {
-    margin-top: 0%;
-    display: flex;
-    gap: 0.9rem;
+    gap: 0.5rem;
     justify-content: center;
     width: 20vw;
     height: 9vh;
@@ -238,8 +121,92 @@ header {
   }
 
   .header__container h1 {
-    font-size: 1.5rem;
+    margin-left: 0rem;
+    font-size: 1.9rem;
   }
+
+  .Me {
+
+    height: 35vh;
+    width: 42%;
+    left: calc(82% - 14rem);
+    top: 22rem;
+
+  }
+
+  .Me img {
+
+    left: 0.7rem;
+    width: 90%;
+  }
+
+}
+
+@media screen and (max-width: 428px) {
+  header {
+    top: -71.5rem;
+    height: 138vh;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  header {
+    top: -68.5rem;
+    height: 138vh;
+  }
+}
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 393px) {
+
+  header {
+    top: -63.5rem;
+    height: 138vh;
+  }
+
+  .header__container h1 {
+    margin-left: 0rem;
+    color: #009fc7;
+  }
+  
+
+  /* ------------ CTA ----------*/
+  .cta {
+    margin-top: 0%;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    width: 20vw;
+    height: 9vh;
+    margin-left: 40%;
+  }
+
+  .cta a {
+    font-size: 0.8rem;
+    padding: auto;
+  }
+
+  .header__container h1 {
+    margin-left: 0rem;
+    font-size: 1.9rem;
+  }
+
+  .Me {
+
+    height: 35vh;
+    width: 42%;
+    left: calc(87% - 14rem);
+    top: 19rem;
+
+  }
+
+  .Me img {
+
+    left: 0.7rem;
+    width: 90%;
+  }
+
 
 
 }
@@ -249,7 +216,18 @@ header {
 @media screen and (max-width: 390px) {
 
   header {
-    top: -85rem;
+    top: -65rem;
+    height: 138vh;
+  }
+
+}
+
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 375px) {
+
+  header {
+    top: -67rem;
     height: 148vh;
   }
 
@@ -295,111 +273,65 @@ header {
   }
 
 
-
 }
 
-/*--------- Responsive design  (iPhone devices) ----------------*/
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
 
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 360px) {
 
   header {
-    top: -85.5rem;
+    top: -64rem;
     height: 148vh;
   }
 
-  .header__container {
-
-    top: 5rem;
-  }
-
-  .Me {
-
-    width: 42%;
-    height: 35vh;
-    left: calc(87% - 14rem);
-    margin-top: 25%;
-
-  }
-
-
-  .Me img {
-
-    left: 0.7rem;
-    width: 90%;
-  }
-
-  /* ------------ CTA ----------*/
   .cta {
-    margin-top: 0%;
-    display: flex;
-    gap: 0.9rem;
-    justify-content: center;
-    width: 20vw;
-    height: 9vh;
-    margin-left: 40%;
-  }
-
-  .cta a {
-    font-size: 0.8rem;
-    padding: auto;
-  }
-
-  .header__container h1 {
-    font-size: 1.5rem;
-  }
-
-
-
-}
-
-/*--------- Responsive design  (iPhone devices) ----------------*/
-
-@media screen and (max-width: 414px) {}
-
-/*--------- Responsive design  (iPhone devices) ----------------*/
-
-@media screen and (max-width: 428px) {
-  header {
-    top: -94rem;
-    height: 138vh;
-  }
-
-  .Me {
-
-    height: 30vh;
-    left: calc(80% - 14rem);
-    top: 22rem;
-
+    
+    display: none;
+   
   }
 
 }
 
-/*--------- Responsive design  (iPhone devices) ----------------*/
 
-@media screen and (min-width: 430px) {
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 320px) {
   header {
-    top: -70rem;
-    height: 138vh;
+    top: -50rem;
+    height: 148vh;
   }
 
-  .header__container h1 {
-    margin-left: 0rem;
-    color: #009fc7;
+  .cta {
+    
+    display: none;
+   
+  }
+
+  .header__socials {
+    
+    bottom: 18rem;
   }
 
   .Me {
 
-    height: 35vh;
     width: 42%;
-    left: calc(80% - 14rem);
-    top: 22rem;
+    height: 40vh;
+    left: calc(97% - 14rem);
+    top: 8rem;
 
   }
+
 
   .Me img {
 
     left: 0.7rem;
     width: 90%;
+  }
+
+  .scroll__down {
+    
+    bottom: 23rem;
+    
   }
 
 }
@@ -587,7 +519,7 @@ header {
   .Me {
 
     top: 12rem;
-    height: 45vh;
+    height: 55vh;
     left: calc(55% - 14rem);
 
   }

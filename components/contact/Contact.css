@@ -79,6 +79,157 @@ textarea {
 }
 
 
+@media screen and (max-width: 430px) {
+  #contact {
+    position: relative;
+    top: -120rem;
+    left: -1rem;
+  }
+
+  #contact h5 {
+    margin-left: 10%;
+    font-size: 1.5rem;
+  }
+
+  #contact h2 {
+    margin-left: 10%;
+    font-size: 1.2rem;
+  }
+
+  h5 {
+    margin-left: 0%;
+    font-size: 1.5rem;
+  }
+
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #contact {
+    position: relative;
+    top: -115rem;
+    left: -1rem;
+  }
+}
+
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 393px) {
+
+
+  #contact {
+    position: relative;
+    top: -95rem;
+    left: -1rem;
+  }
+
+  #contact h5 {
+    margin-left: 10%;
+    font-size: 1.2rem;
+  }
+
+  #contact h2 {
+    margin-left: 10%;
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    margin-left: 0%;
+    font-size: 1.5rem;
+  }
+
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+
+
+
+
+}
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 390px) {
+
+
+  #contact {
+    position: relative;
+    top: -100rem;
+    left: -1rem;
+  }
+
+  #contact h5 {
+    margin-left: 10%;
+    font-size: 1.4rem;
+  }
+
+  #contact h2 {
+    margin-left: 10%;
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    margin-left: 0%;
+    font-size: 1.5rem;
+  }
+
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 375px) {
+
+  #contact {
+    position: relative;
+    top: -75rem;
+    left: -1rem;
+  }
+
+  #contact h5 {
+    margin-left: 10%;
+    font-size: 1.2rem;
+  }
+
+  #contact h2 {
+    margin-left: 10%;
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    margin-left: 0%;
+    font-size: 1.5rem;
+  }
+
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  #contact {
+    position: relative;
+    top: -80rem;
+    left: -1rem;
+  }
+}
+
 /*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
 
 @media screen and (max-width: 320px) {
@@ -92,12 +243,12 @@ textarea {
 
   #contact h5 {
     margin-left: 10%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   #contact h2 {
     margin-left: 10%;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
   }
 
   h5 {
@@ -121,122 +272,6 @@ textarea {
 
 
 
-}
-
-@media screen and (max-width: 360px) {}
-
-@media screen and (max-width: 375px) {}
-
-/*--------- Responsive design  (iPhone devices) ----------------*/
-
-@media screen and (max-width: 390px) {
-
-
-  #contact {
-    position: relative;
-    top: -136rem;
-    left: -1rem;
-  }
-
-  #contact h5 {
-    margin-left: 10%;
-    font-size: 1.5rem;
-  }
-
-  #contact h2 {
-    margin-left: 10%;
-    font-size: 1.9rem;
-  }
-
-  h5 {
-    margin-left: 0%;
-    font-size: 1.5rem;
-  }
-
-  .container.contact__container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-
-
-
-
-
-}
-
-/*--------- Responsive design  (iPhone devices) ----------------*/
-
-@media screen and (max-width: 393px) {
-
-
-  #contact {
-    position: relative;
-    top: -140rem;
-    left: -1rem;
-  }
-
-  #contact h5 {
-    margin-left: 10%;
-    font-size: 1.5rem;
-  }
-
-  #contact h2 {
-    margin-left: 10%;
-    font-size: 1.9rem;
-  }
-
-  h5 {
-    margin-left: 0%;
-    font-size: 1.5rem;
-  }
-
-  .container.contact__container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-
-
-
-
-
-}
-
-@media screen and (max-width: 414px) {}
-
-@media screen and (max-width: 428px) {
-  #contact {
-    position: relative;
-    margin-top: -20rem;
-    left: -1rem;
-  }
-}
-
-@media screen and (min-width: 430px) {
-  #contact {
-    position: relative;
-    top: -110rem;
-    left: -1rem;
-  }
-
-  #contact h5 {
-    margin-left: 10%;
-    font-size: 1.5rem;
-  }
-
-  #contact h2 {
-    margin-left: 10%;
-    font-size: 1.2rem;
-  }
-
-  h5 {
-    margin-left: 0%;
-    font-size: 1.5rem;
-  }
-
-  .container.contact__container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
 }
 
 /*--------- Responsive design  (iPhone devices) ----------------*/

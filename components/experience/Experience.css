@@ -76,106 +76,7 @@
 
 
 
-/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
-
-@media screen and (max-width: 320px) {
-
-  #experience {
-
-    top: -60rem;
-  }
-
-  .experience__container {
-    margin-left: -10%;
-  }
-}
-
-/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
-
-@media screen and (max-width: 360px) {
-
-  .experience__container {
-    margin-left: -5%;
-  }
-}
-
-/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
-
-@media screen and (max-width: 375px) {
-
-  #experience {
-
-    top: -48em;
-  }
-
-  .experience__container {
-    margin-left: -7%;
-  }
-
-
-}
-
-
-@media screen and (max-width: 390px) {}
-
-/*--------- Responsive design  (iPhone devices) ----------------*/
-
-@media screen and (max-width: 393px) {
-
-  #experience {
-
-    top: -40rem;
-  }
-
-  .experience__container {
-    grid-template-columns: 1fr;
-  }
-
-  #experience h1 {
-
-    margin-left: 0rem;
-    font-size: 2.2rem;
-
-
-  }
-
-  #experience h2 {
-    margin-left: 0rem;
-    font-size: 1.9rem;
-  }
-
-
-  .experience__container>div {
-    width: 90%;
-    padding: 2rem;
-    margin: 0 auto;
-    margin-left: 1.8rem;
-  }
-
-  .experience__content {
-    /* padding: 1rem; */
-    padding-left: 2rem;
-    font-size: 0.8rem;
-  }
-
-
-
-
-}
-
-
-/*--------- Responsive design  (iPhone devices) ----------------*/
-
-@media screen and (max-width: 414px) {
-  .experience__container {
-    margin-left: -3%;
-  }
-}
-
-@media screen and (max-width: 428px) {}
-
-
-@media screen and (min-width: 430px) {
+@media screen and (max-width: 430px) {
   #experience {
 
     top: -90rem;
@@ -210,6 +111,119 @@
     /* padding: 1rem; */
     padding-left: 2rem;
     font-size: 0.8rem;
+  }
+}
+
+/*--------- Responsive design  (iPhone devices) ----------------*/
+
+@media screen and (max-width: 393px) {
+
+  #experience {
+
+    top: -80rem;
+  }
+
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
+
+  #experience h1 {
+
+    margin-left: 0rem;
+    font-size: 1.9rem;
+
+
+  }
+
+  #experience h2 {
+    margin-left: 0rem;
+    font-size: 1.5rem;
+  }
+
+
+  .experience__container>div {
+    width: 90%;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-left: 1.8rem;
+  }
+
+  .experience__content {
+    /* padding: 1rem; */
+    padding-left: 1rem;
+    font-size: 0.8rem;
+  }
+
+
+
+
+}
+
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 375px) {
+
+  #experience {
+
+    top: -80rem;
+  }
+
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
+
+  #experience h1 {
+
+    margin-left: 0rem;
+    font-size: 1.6rem;
+
+
+  }
+
+  #experience h2 {
+    margin-left: 0rem;
+    font-size: 1.5rem;
+  }
+
+
+  .experience__container>div {
+    width: 90%;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-left: 1.4rem;
+  }
+
+  .experience__content {
+    /* padding: 1rem; */
+    padding-left: 1rem;
+    font-size: 0.8rem;
+  }
+
+
+
+}
+
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 360px) {
+
+  .experience__container {
+    margin-left: -2%;
+  }
+}
+
+
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 320px) {
+
+  #experience {
+
+    top: -60rem;
+  }
+
+  .experience__container {
+    margin-left: -10%;
   }
 }
 

@@ -75,72 +75,22 @@ footer a {
 
 
 
-/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
 
-@media screen and (max-width: 320px) {}
-
-@media screen and (max-width: 360px) {}
-
-@media screen and (max-width: 375px) {}
 
 /*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 430px) {
 
     #footer {
         width: 100vw;
         position: relative;
-        margin-top: -120rem;
-        left: 0rem;
-
-    }
-
-}
-
-/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
-
-@media screen and (max-width: 393px) {
-
-    #footer {
-        width: 100vw;
-        position: relative;
-        margin-top: -120rem;
-        left: 0rem;
-
-    }
-
-}
-
-@media screen and (max-width: 414px) {}
-
-/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
-
-@media screen and (max-width: 428px) {
-
-    #footer {
-        width: 100vw;
-        position: relative;
-        margin-top: -120rem;
-        left: 0rem;
-
-    }
-
-}
-
-/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
-
-@media screen and (min-width: 430px) {
-
-    #footer {
-        width: 100vw;
-        position: relative;
-        margin-top: -140rem;
+        margin-top: -155rem;
         left: 0rem;
 
     }
 
     footer a {
-        color: rgb(135, 182, 164);
+        color: rgb(236, 255, 248);
         font-size: 1.4rem;
     
     }
@@ -153,6 +103,66 @@ footer a {
         margin: 0 auto 3rem;
     }
 
+}
+
+
+
+@media screen and (max-width: 393px) {
+
+    #footer {
+        width: 100vw;
+        position: relative;
+        margin-top: -130rem;
+        left: 0rem;
+
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+
+    #footer {
+        width: 100vw;
+        position: relative;
+        margin-top: -140rem;
+        left: 0rem;
+
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    #footer {
+        width: 100vw;
+        position: relative;
+        margin-top: -110rem;
+        left: 0rem;
+
+    }
+}
+
+@media screen and (max-width: 360px) {
+ 
+    #footer {
+        width: 100vw;
+        position: relative;
+        margin-top: -120rem;
+        left: 0rem;
+
+    }
+}
+
+/*--------- Responsive design  (Small ~ iPhone devices) ----------------*/
+
+@media screen and (max-width: 320px) {
+
+    #footer {
+        width: 100vw;
+        position: relative;
+        margin-top: -90rem;
+        left: 0rem;
+
+    }
 }
 
 @media screen and (min-width: 768px) {
