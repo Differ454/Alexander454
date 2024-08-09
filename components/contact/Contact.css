@@ -664,11 +664,17 @@ textarea {
     padding: 0;
     margin-top: 0rem;
     top: -83rem;
+}
+
+#contact h5 {
+  font-size: 1.5rem;
+}
+
+#contact h2 {
+  font-size: 1.2rem;
+}
 
 
-
-
-  }
 
   .container.contact__container {
     width: 58%;
@@ -720,6 +726,7 @@ textarea {
 
   .contact__option h5 {
     color: light;
+    
   }
 
 

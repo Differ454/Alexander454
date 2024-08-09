@@ -711,6 +711,16 @@
 
   }
 
+  #about h5 {
+    font-size: 1.5rem;
+  
+  }
+
+  #about h2 {
+    font-size: 1.2rem;
+  
+  }
+
   .cube {
 
     top: 35rem;
