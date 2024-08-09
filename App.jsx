@@ -12,6 +12,8 @@ const EarthCanvas = React.lazy(() => import('./components/EarthCanvas/EarthCanva
 const SateliteCanvas = React.lazy(() => import('./components/SateliteCanvas/SateliteCanvas'));
 const NaveCanvas = React.lazy(() => import('./components/NaveCanvas/NaveCanvas'));
 
+//TEST MESSAGE
+
 
 
 const App = () => {
