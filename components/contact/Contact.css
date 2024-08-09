@@ -82,7 +82,7 @@ textarea {
 @media screen and (max-width: 430px) {
   #contact {
     position: relative;
-    top: -120rem;
+    top: -115rem;
     left: -1rem;
   }
 
@@ -107,6 +107,16 @@ textarea {
   }
 }
 
+@media screen and (max-width: 428px) {
+  #contact {
+    position: relative;
+    top: -110rem;
+    left: -1rem;
+  }
+
+ 
+}
+
 @media screen and (max-width: 414px) {
   #contact {
     position: relative;
@@ -114,6 +124,8 @@ textarea {
     left: -1rem;
   }
 }
+
+
 
 
 /*--------- Responsive design  (iPhone devices) ----------------*/

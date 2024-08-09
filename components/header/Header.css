@@ -103,23 +103,6 @@ header {
     color: #009fc7;
   }
   
-
-  /* ------------ CTA ----------*/
-  .cta {
-    margin-top: 0%;
-    display: flex;
-    gap: 0.5rem;
-    justify-content: center;
-    width: 20vw;
-    height: 9vh;
-    margin-left: 40%;
-  }
-
-  .cta a {
-    font-size: 0.8rem;
-    padding: auto;
-  }
-
   .header__container h1 {
     margin-left: 0rem;
     font-size: 1.9rem;
@@ -144,9 +127,14 @@ header {
 
 @media screen and (max-width: 428px) {
   header {
-    top: -71.5rem;
+    top: -70rem;
     height: 138vh;
   }
+
+  
+
+
+
 }
 
 @media screen and (max-width: 414px) {
@@ -154,6 +142,8 @@ header {
     top: -68.5rem;
     height: 138vh;
   }
+
+  
 }
 
 /*--------- Responsive design  (iPhone devices) ----------------*/

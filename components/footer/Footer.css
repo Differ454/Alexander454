@@ -105,6 +105,18 @@ footer a {
 
 }
 
+@media screen and (max-width: 428px) {
+
+    #footer {
+        width: 100vw;
+        position: relative;
+        margin-top: -145rem;
+        left: 0rem;
+
+    }
+
+}
+
 
 
 @media screen and (max-width: 393px) {

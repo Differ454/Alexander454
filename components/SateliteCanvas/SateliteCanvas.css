@@ -34,6 +34,16 @@
     }
 }
 
+
+@media screen and (max-width: 428px) {
+    #canvasContainerSatelite {
+
+        margin-top: -65rem;
+        margin-left: 0rem;
+
+    }
+} 
+
 @media screen and (max-width: 393px) {
     #canvasContainerSatelite {
 
