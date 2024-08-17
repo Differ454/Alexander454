@@ -13,6 +13,7 @@ import { SiThreedotjs } from "react-icons/si";
 import { SiCplusplus } from "react-icons/si";
 import { CgCPlusPlus } from "react-icons/cg";
 import { IoLogoPython } from "react-icons/io5";
+import { SiTypescript } from "react-icons/si";
 
 
 
@@ -132,6 +133,13 @@ function Experience() {
               <div>
                 <h4>Python ~ Machine Learning - Artificial Intelligence </h4>
                 <small className="text-light">Beginner</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiTypescript className="experience__details-icon" size={20}/>
+              <div>
+                <h4>Typescript</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
           </div>
