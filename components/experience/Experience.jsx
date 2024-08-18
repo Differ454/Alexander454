@@ -138,7 +138,7 @@ function Experience() {
             <article className="experience__details">
               <SiTypescript className="experience__details-icon" size={20}/>
               <div>
-                <h4>Typescript</h4>
+                <h4>TypeScript</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
