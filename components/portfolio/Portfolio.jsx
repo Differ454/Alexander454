@@ -5,16 +5,17 @@ import NJN from "/assets/ninja.jpg";
 import TIC from "/assets/tic tac toe.png";
 import GTH from "/assets/GithubShooter.png";
 import EAR from "/assets/DLM.png";
-import STW from "/assets/space6.png";
+import STW from "/assets/Deploy.png";
 
 const data = [
   {
 
     id: 1,
-    image: TIC,
-    title: "tic tac toe Game",
-    github: "https://github.com/DrCloudFactory454/tic-tac-toe",
-    demo: "https://tic-tac-toe454.netlify.app",
+    image: STW,
+    title: "Lego Repository",
+    github: "https://github.com/Differ454/Alexander454/tree/master",
+    demo: "https://alexanderlasse454.com/",
+   
     
   },
 
@@ -47,11 +48,13 @@ const data = [
     demo: "https://flow-loop.com/",
   },
   {
+     
+
       id: 6,
-      image: STW,
-      title: "3D world globe",
-      github: "https://github.com/Differ454/ThreeJs-3DEarth-Project-Vite-React",
-      demo: "https://3dworld454.netlify.app",
+      image: TIC,
+      title: "tic tac toe Game",
+      github: "https://github.com/DrCloudFactory454/tic-tac-toe",
+      demo: "https://tic-tac-toe454.netlify.app",
       
     },
 ];
