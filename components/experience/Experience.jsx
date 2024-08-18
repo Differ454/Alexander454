@@ -22,7 +22,7 @@ function Experience() {
   return (
     <section id="experience">
       <h1>Experience</h1>
-      <h2> Software ~ Firmware Development</h2>
+      <h2> Software Development</h2>
       <div className="container experience__container">
         <div className="experience__fontend">
           <h3>Frontend development</h3>
@@ -79,7 +79,7 @@ function Experience() {
         </div>
         {/*----------------> End of Frontend <-----------------*/}
         <div className="experience__backend">
-          <h3>Backend development</h3>
+          <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
               <FaNodeJs className="experience__details-icon" size={28}/>
